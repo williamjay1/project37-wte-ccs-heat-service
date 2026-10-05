@@ -1,0 +1,9 @@
+quantity,calculated,reported,relative_error_percent,unit,evidence_level
+thermal_input,53.58796296296296,53.6,-0.022457158651190134,MW,"Independent feed/LHV arithmetic; rounded table, not boiler-efficiency validation"
+net_CCS_CHP_rounded_aux_MW,6.169999999999999,6.17,-1.1102230246251565e-14,MW,Independent auxiliary closure given published gross power; turbine generation is not reproduced
+net_CCS_CHP_detailed_aux_MW,6.180999999999999,6.17,0.17828200972445085,MW,Independent auxiliary closure given published gross power; turbine generation is not reproduced
+PCC_heat_from_captured_mass,19.158,18.9,1.3650793650793691,MW,"Independent captured-mass duty check, not fitted heat output"
+specific_DH_no_CCS,6.4454400000000005,6.4,0.7100000000000106,GJ/t wet waste,Independent MW/throughput unit closure
+specific_DH_CCS,3.1968000000000005,3.2,-0.09999999999998899,GJ/t wet waste,Independent MW/throughput unit closure
+PCC_heat_4bar_144_to136,18.89504488621758,18.9,-0.026217533240313617,MW,"Conditional same-lineage cross-source state check; pressure is Su main, not printed in2026 table"
+PCC_heat_diagram_saturated_3p21bar,18.805588587637807,18.9,-0.49953128233963806,MW,Alternative near-saturated diagram interpretation; not merged with144/136C table

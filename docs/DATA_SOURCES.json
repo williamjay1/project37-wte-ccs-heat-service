@@ -1,0 +1,86 @@
+{
+  "checked_date": "2026-10-05",
+  "inputs": [
+    {
+      "source_institution": "ERZ Entsorgung + Recycling Zürich / Open Data Zürich",
+      "source_url": "https://data.stadt-zuerich.ch/dataset/erz_abfallmenge_energie_khkw",
+      "source_version": "v1; portal updated 2026-09-30; January 2020–August 2026",
+      "acquired": "2026-10-02T11:20:39Z",
+      "license_basis": "Owner portal explicitly CC0; original unchanged.",
+      "units": "Waste and residues t; heat/electricity MWh; monthly.",
+      "processing": "Frozen original; cleaner checks month ends, uniqueness, coverage and nonnegativity; six complete years retained for annual cuts.",
+      "claim_boundary": "Observed monthly exports/generation, Switzerland non-EU; not customer demand, hourly monitoring or CCS operations.",
+      "path": "datasets/hagenholz_operator_raw_cc0_20261002.csv",
+      "sha256": "fae845b7ecf2a5fd6e78ef9be453e0b99491e73a925c2b036bf1bdaa67546966",
+      "bytes": 5909
+    },
+    {
+      "source_institution": "Matteo Giacomo Prina / PLANtoACT",
+      "source_url": "https://doi.org/10.5281/zenodo.21834587",
+      "source_version": "v1, August 2026; five selected regional modeled profiles, each 8784 hours",
+      "acquired": "2026-09-29",
+      "license_basis": "Archived Zenodo metadata license.id=cc-by-4.0; modified and attributed subset.",
+      "units": "hour index; normalized proxy MWh per declared 1 GWh annual total",
+      "processing": "Select five regional profiles; normalize nonnegative shapes without fitting factory heat exports.",
+      "claim_boundary": "Modeled proxy timing, not measured network demand or representative EU sample.",
+      "path": "datasets/scaled_heat_proxy_profiles_5regions_20260929.csv",
+      "sha256": "cd848df5af5c8b7dbd9ff0d1b660a3698d8603f947482cb76016ebf70dd8611d",
+      "bytes": 4015247
+    },
+    {
+      "source_institution": "Danish Energy Agency and Energinet",
+      "source_url": "https://ens.dk/media/5729/download",
+      "source_version": "February 2024 workbook; sheet401.a; 2025 reference column; EUR2020",
+      "acquired": "2026-09-30",
+      "license_basis": "Source Index states CC BY 4.0; attributed modified numerical card.",
+      "units": "EUR2020; tCO2/h; years; MWh/tCO2",
+      "processing": "Selected original cells D6,D25,D28–30,D33 and H/I ranges; conditioning scope and source notes retained.",
+      "claim_boundary": "Generic capacity-based stress; not a site quote, actual marginal95%-vs99% train cost or investment-optimal sequence.",
+      "path": "datasets/dea_ccs_benchmark_transcription_20260930.json",
+      "sha256": "4e02a3be2e5434cd543dda00382e7c7652618650f1c4418d1ab16aa998849495",
+      "bytes": 3471
+    },
+    {
+      "source_institution": "Danish Energy Agency and Energinet",
+      "source_url": "https://ens.dk/media/6589/download",
+      "source_version": "July2026 Chapter141 update; workbook reference2025",
+      "acquired": "2026-10-02T04:42:17Z",
+      "license_basis": "Source workbook Index C9 explicitly Attribution4.0 International, independently reread 2026-10-05. Supersedes historical unconfirmed notice without changing frozen input.",
+      "units": "m3; C; MW; MWh; loss fraction/day; auxiliary fraction; EUR2025",
+      "processing": "Selected141a/141b cells; reference investment totals derived; no-store case added; source scope conflicts retained.",
+      "claim_boundary": "Optimistic generic finite tank templates; not installed hardware, exact stratification, full connection quotation or source-SOC loss identity.",
+      "path": "datasets/dea_storage_141_transcription_r32_20261002.json",
+      "sha256": "aaa0ac9b75abbb8ea4cd23f2134852234d43fbae12ed6faae50db788a2ded608",
+      "bytes": 2668
+    },
+    {
+      "source_institution": "Vogt et al.; German Environment Agency (UBA)",
+      "source_url": "https://www.umweltbundesamt.de/sites/default/files/medien/11740/publikationen/2023-06-07_texte_86_2023_klimkreis_teilbericht_eu_eng.pdf",
+      "additional_source_url": "https://www.umweltbundesamt.de/sites/default/files/medien/11740/publikationen/2023-06-07_texte_84_2023_klimkreis_teilbericht_de_eng.pdf",
+      "source_version": "Texte84/86(2023); modeled2017/2030 endpoints; upstream frozen derived input",
+      "acquired": "2026-09-29 originals; 2026-09-30 derived snapshot",
+      "license_basis": "UBA official data-use terms, section C: sharing/modifying data permitted unless otherwise noted, with source and modification attribution. Not a blanket CC license for reports.",
+      "license_url": "https://www.umweltbundesamt.de/en/disclaimer-privacy-policy-copyright",
+      "units": "kt; GJ/t; tCO2/t; dimensionless carbon and energy ratios",
+      "processing": "Germany and EU-exGermany modeled endpoints combined; extensive quantities interpolated before intensive shares; bulk and material routes retained.",
+      "claim_boundary": "Synthetic transition coordinates, not observed annual plant compositions; pipeline begins from this declared derived boundary.",
+      "path": "datasets/joint_feed_transition_properties_20260930.csv",
+      "sha256": "2918db2319a0693e8c6494e444dd078d3cb91809840798e7bfcedebfdc3bd6b7",
+      "bytes": 12486
+    },
+    {
+      "source_institution": "Herraiz et al.; University of Edinburgh / Elsevier",
+      "source_url": "https://doi.org/10.1016/j.ijggc.2026.104588",
+      "source_version": "IJGGC151(2026)104588; supplement SM5.1 and diagram SM5.1",
+      "acquired": "2026-10-02T09:27:38Z main / 09:30:50Z supplement",
+      "license_basis": "Limited attributed numerical facts and project-written provenance; mainCCBY. Supplement not presumed wholly open-licensed; no full text/figure redistributed.",
+      "units": "MW; MJ/kgCO2; bar; C; kg/s; t/day",
+      "processing": "Printed process states separately transcribed; pressure/version alternatives and rounding retained.",
+      "claim_boundary": "Same Su model lineage, UK non-EU; source identity/arithmetic checks, not independent plant replication or copied commercial LCA.",
+      "path": "datasets/herraiz2026_process_table_r33_20261002.json",
+      "sha256": "50b2203b3b4ac8a422b259395b99863bec5f12f55fdb29618e23aaaa8a2f459a",
+      "bytes": 1848
+    }
+  ],
+  "pipeline_boundary": "Frozen six-input computational reproduction; upstream source transcriptions and timing proxy transformations documented, not falsely regenerated from protected full texts."
+}

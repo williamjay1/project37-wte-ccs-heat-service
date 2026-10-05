@@ -1,0 +1,36 @@
+name: Reproducibility
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'src/**'
+      - 'datasets/**'
+      - 'tools/**'
+      - 'tests/**'
+      - 'reproduce.py'
+      - 'requirements.txt'
+      - 'manifest.json'
+      - '.github/workflows/reproducibility.yml'
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  scientific-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python tools/check_repository.py
+      - run: python -m unittest discover -s tests -v
+      - run: python reproduce.py --fresh-dir "${{ runner.temp }}/project37-fresh"
+      - run: python tools/compare_outputs.py --fresh-dir "${{ runner.temp }}/project37-fresh"

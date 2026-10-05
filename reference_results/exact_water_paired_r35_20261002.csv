@@ -1,0 +1,41 @@
+proxy,mean_duty_ratio_SCENARIO,supply_temperature_C,tank,paired_pass,aggregate_false_pass,base_unmet_MWh,CCS_unmet_MWh
+Lombardia,0.2,100,no_store,True,False,0.0,0.0
+Lombardia,0.2,100,141b Large TTES,True,False,0.0,0.0
+Lombardia,0.2,120,no_store,True,False,0.0,0.0
+Lombardia,0.2,120,141b Large TTES,True,False,0.0,0.0
+Lombardia,0.3,100,no_store,False,False,391.1728493972767,376.1876404500088
+Lombardia,0.3,100,141b Large TTES,True,False,0.0,0.0
+Lombardia,0.3,120,no_store,False,False,391.1728493972767,952.518858826431
+Lombardia,0.3,120,141b Large TTES,True,False,0.0,0.0
+Oberland,0.2,100,no_store,True,False,0.0,0.0
+Oberland,0.2,100,141b Large TTES,True,False,0.0,0.0
+Oberland,0.2,120,no_store,True,False,0.0,0.0
+Oberland,0.2,120,141b Large TTES,True,False,0.0,0.0
+Oberland,0.3,100,no_store,True,False,0.0,0.0
+Oberland,0.3,100,141b Large TTES,True,False,0.0,0.0
+Oberland,0.3,120,no_store,False,True,0.0,3.011474548871334
+Oberland,0.3,120,141b Large TTES,True,False,0.0,0.0
+Auvergne-Rhone-Alpes,0.2,100,no_store,True,False,0.0,0.0
+Auvergne-Rhone-Alpes,0.2,100,141b Large TTES,True,False,0.0,0.0
+Auvergne-Rhone-Alpes,0.2,120,no_store,True,False,0.0,0.0
+Auvergne-Rhone-Alpes,0.2,120,141b Large TTES,True,False,0.0,0.0
+Auvergne-Rhone-Alpes,0.3,100,no_store,False,False,22.83034052556956,20.955525182692845
+Auvergne-Rhone-Alpes,0.3,100,141b Large TTES,True,False,0.0,0.0
+Auvergne-Rhone-Alpes,0.3,120,no_store,False,False,22.83034052556956,112.29283721950036
+Auvergne-Rhone-Alpes,0.3,120,141b Large TTES,True,False,0.0,0.0
+Porto metropolitan area,0.2,100,no_store,False,False,40.91902078125537,38.66346522569967
+Porto metropolitan area,0.2,100,141b Large TTES,True,False,0.0,0.0
+Porto metropolitan area,0.2,120,no_store,False,False,40.91902078125537,139.58706503726492
+Porto metropolitan area,0.2,120,141b Large TTES,True,False,0.0,0.0
+Porto metropolitan area,0.3,100,no_store,False,False,6870.7248441146785,6804.264095675581
+Porto metropolitan area,0.3,100,141b Large TTES,False,False,1888.714502399298,1985.7751645616236
+Porto metropolitan area,0.3,120,no_store,False,False,6870.7248441146785,8652.579202228188
+Porto metropolitan area,0.3,120,141b Large TTES,False,False,1888.714502399298,2854.215517624415
+Alba,0.2,100,no_store,True,False,0.0,0.0
+Alba,0.2,100,141b Large TTES,True,False,0.0,0.0
+Alba,0.2,120,no_store,True,False,0.0,0.0
+Alba,0.2,120,141b Large TTES,True,False,0.0,0.0
+Alba,0.3,100,no_store,False,False,230.48110251384693,222.68148452773806
+Alba,0.3,100,141b Large TTES,True,False,0.0,0.0
+Alba,0.3,120,no_store,False,False,230.48110251384693,493.2203175270928
+Alba,0.3,120,141b Large TTES,True,False,0.0,0.0

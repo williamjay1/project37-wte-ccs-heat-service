@@ -1,0 +1,187 @@
+{
+  "created_utc": "2026-10-02T09:16:27.639376+00:00",
+  "su_bracket": {
+    "HP_h_MJ_kg": 3.178183018132337,
+    "HP_s_kJ_kgK": 6.543059915291796,
+    "isentropic_exhaust_h_MJ_kg": 2.591207024029023,
+    "isentropic_exhaust_quality": 0.931164244559568,
+    "saturation_C": 143.6125329983828,
+    "saturated_vapor_h_MJ_kg": 2.738056622931281,
+    "saturated_liquid_h_MJ_kg": 0.6047234741531466,
+    "return60_h_MJ_kg": 0.25147356122725356,
+    "latent_fraction_lower": 0.7289186645243826,
+    "superheat_fraction_upper": 0.171025185233926,
+    "route_conditions": "Adiabatic non-reheated 60bar/400C ->4bar route; nonnegative work/entropy production; full condensation; condensate return >=60C. Source heat anchors, not fitted off-design output."
+  },
+  "Su_LPs": 160,
+  "Swiss_LPs": 192,
+  "Su_outer_tightening_exclusions": [
+    {
+      "demand_MW": 20,
+      "supply_temperature_C": 160,
+      "volume_m3": 0,
+      "capture_on": true,
+      "unserved_MWh": 371.5079243690137
+    },
+    {
+      "demand_MW": 20,
+      "supply_temperature_C": 160,
+      "volume_m3": 50000,
+      "capture_on": true,
+      "unserved_MWh": 371.5079243690137
+    },
+    {
+      "demand_MW": 25,
+      "supply_temperature_C": 160,
+      "volume_m3": 0,
+      "capture_on": false,
+      "unserved_MWh": 198.22779678900432
+    },
+    {
+      "demand_MW": 25,
+      "supply_temperature_C": 160,
+      "volume_m3": 0,
+      "capture_on": true,
+      "unserved_MWh": 1211.507924369013
+    },
+    {
+      "demand_MW": 25,
+      "supply_temperature_C": 160,
+      "volume_m3": 50000,
+      "capture_on": false,
+      "unserved_MWh": 198.22779678900432
+    },
+    {
+      "demand_MW": 25,
+      "supply_temperature_C": 160,
+      "volume_m3": 50000,
+      "capture_on": true,
+      "unserved_MWh": 1211.507924369013
+    },
+    {
+      "demand_MW": 30,
+      "supply_temperature_C": 160,
+      "volume_m3": 0,
+      "capture_on": false,
+      "unserved_MWh": 1038.227796789005
+    },
+    {
+      "demand_MW": 30,
+      "supply_temperature_C": 160,
+      "volume_m3": 50000,
+      "capture_on": false,
+      "unserved_MWh": 1038.227796789005
+    },
+    {
+      "demand_MW": 36.5,
+      "supply_temperature_C": 160,
+      "volume_m3": 0,
+      "capture_on": false,
+      "unserved_MWh": 2130.2277967890036
+    },
+    {
+      "demand_MW": 36.5,
+      "supply_temperature_C": 160,
+      "volume_m3": 50000,
+      "capture_on": false,
+      "unserved_MWh": 2130.2277967890036
+    }
+  ],
+  "Swiss_rectangular_false_admissions": [
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "approach_SCENARIO_K": 5,
+      "supply_temperature_C": 100,
+      "unserved_MWh": 1466.458900487532
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "approach_SCENARIO_K": 8,
+      "supply_temperature_C": 100,
+      "unserved_MWh": 10190.168691945713
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "approach_SCENARIO_K": 5,
+      "supply_temperature_C": 100,
+      "unserved_MWh": 1784.1972232232756
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "approach_SCENARIO_K": 8,
+      "supply_temperature_C": 100,
+      "unserved_MWh": 10211.538614478894
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "approach_SCENARIO_K": 5,
+      "supply_temperature_C": 100,
+      "unserved_MWh": 2311.9364631828303
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "approach_SCENARIO_K": 8,
+      "supply_temperature_C": 100,
+      "unserved_MWh": 10247.032433979639
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "approach_SCENARIO_K": 5,
+      "supply_temperature_C": 100,
+      "unserved_MWh": 2629.6747859185693
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "approach_SCENARIO_K": 8,
+      "supply_temperature_C": 100,
+      "unserved_MWh": 10268.402356512814
+    }
+  ],
+  "state_rounding_stresses": 36,
+  "approach5_rounding_excluded": 24,
+  "approach8_rounding_excluded": 36,
+  "critical_approach_range_K": [
+    3.760273161082995,
+    6.1135122948334475
+  ],
+  "constructive_same_thermal_service_MW": 13.484995293701077,
+  "constructive_fossil_threshold_fixed_point_foreground": 0.06985834883096835,
+  "source_capture_t_per_h": 18.55270656,
+  "full_basic_power_penalty_MW": 1.9499999999999993,
+  "constructive_fossil40_delta_kgCO2e_per_h": -6033.452110771201,
+  "fixed_point_climate_condition": "Only if published basic steam points remain fixed, unused heat can be rejected and all incremental cooling/other burdens are included. Printed power difference is not a verified bound on off-design electricity.",
+  "cold_stream_properties": "Steam-phase cuts and constructive certificate use IAPWS liquid-water enthalpy/cp at a declared10bar pressure. Existing non-phase grade/flow screens retain the stated4.18kJ/kg/K approximation.",
+  "max_constraint_residual": 7.105427357601002e-15,
+  "status": "Computed thermodynamic exclusion and conditional constructive thermal bracket; no new plant validation or perfect-reliability claim.",
+  "effect_on_existing_r32_main_matrix": "Su phase cut is inactive at100/120C with10K approach; earlier annual counts unchanged. Swiss near100C boundary is source-rounding sensitive at5K, consistently excluded at8K in declared state stresses.",
+  "non_claims": [
+    "No fully reproduced source turbine power",
+    "No actual factory service verification",
+    "No full LCA or confidence interval",
+    "No demonstrated optimal investment timing"
+  ]
+}

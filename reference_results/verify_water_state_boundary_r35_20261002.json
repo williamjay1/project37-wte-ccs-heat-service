@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-05T06:38:23.143567+00:00",
+  "status": "PASS reviewer counterexample repaired and analytic pressure boundary checked",
+  "old_constant_cp_ceiling_MW": 57.845048899607576,
+  "IF97_ceiling_MW": 57.996602248618295,
+  "reference57_9MW_peak_flow_kg_s": 449.25045588546925,
+  "production_new_ceiling_MW": 57.996602248618295,
+  "nominal1_20bar_plateau_minus5K_C": 99.78378433819114,
+  "alternative1_21bar_plateau_minus5K_C": 100.02339552289874,
+  "critical_pressure_for100C_plus5K_bar": 1.2090205860650913,
+  "interpretation": "Nominal source-state phase exclusion conditional. This two-state diagnostic is not a pressure probability distribution, independent source measurement or complete shifted-cycle reoptimization."
+}

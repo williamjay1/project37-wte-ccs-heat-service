@@ -1,0 +1,237 @@
+{
+  "created_utc": "2026-10-05T06:35:37.033005+00:00",
+  "status": "PASS independent necessary cut checks, not physical validation",
+  "independent_constant_tests": 18,
+  "max_LP_difference_MWh": 4.547473508864641e-13,
+  "tests": [
+    {
+      "ts": 80.0,
+      "flow": 150.0,
+      "tank": "no_store",
+      "analytical_upper_MW": 12.54,
+      "expected_unserved_MWh": 4025.28,
+      "LP_difference_MWh": 4.547473508864641e-13
+    },
+    {
+      "ts": 80.0,
+      "flow": 150.0,
+      "tank": "141a TTES",
+      "analytical_upper_MW": 12.54,
+      "expected_unserved_MWh": 4025.28,
+      "LP_difference_MWh": 4.547473508864641e-13
+    },
+    {
+      "ts": 80.0,
+      "flow": 150.0,
+      "tank": "141b Large TTES",
+      "analytical_upper_MW": 12.54,
+      "expected_unserved_MWh": 4025.28,
+      "LP_difference_MWh": 4.547473508864641e-13
+    },
+    {
+      "ts": 80.0,
+      "flow": 450.0,
+      "tank": "no_store",
+      "analytical_upper_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 80.0,
+      "flow": 450.0,
+      "tank": "141a TTES",
+      "analytical_upper_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 80.0,
+      "flow": 450.0,
+      "tank": "141b Large TTES",
+      "analytical_upper_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 100.0,
+      "flow": 150.0,
+      "tank": "no_store",
+      "analytical_upper_MW": 25.08,
+      "expected_unserved_MWh": 1918.5600000000004,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 100.0,
+      "flow": 150.0,
+      "tank": "141a TTES",
+      "analytical_upper_MW": 25.08,
+      "expected_unserved_MWh": 1918.5600000000004,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 100.0,
+      "flow": 150.0,
+      "tank": "141b Large TTES",
+      "analytical_upper_MW": 25.08,
+      "expected_unserved_MWh": 1918.5600000000004,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 100.0,
+      "flow": 450.0,
+      "tank": "no_store",
+      "analytical_upper_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 100.0,
+      "flow": 450.0,
+      "tank": "141a TTES",
+      "analytical_upper_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 100.0,
+      "flow": 450.0,
+      "tank": "141b Large TTES",
+      "analytical_upper_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "LP_difference_MWh": 0.0
+    },
+    {
+      "ts": 120.0,
+      "flow": 150.0,
+      "tank": "no_store",
+      "analytical_upper_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "LP_difference_MWh": 3.410605131648481e-13
+    },
+    {
+      "ts": 120.0,
+      "flow": 150.0,
+      "tank": "141a TTES",
+      "analytical_upper_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "LP_difference_MWh": 3.410605131648481e-13
+    },
+    {
+      "ts": 120.0,
+      "flow": 150.0,
+      "tank": "141b Large TTES",
+      "analytical_upper_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "LP_difference_MWh": 3.410605131648481e-13
+    },
+    {
+      "ts": 120.0,
+      "flow": 450.0,
+      "tank": "no_store",
+      "analytical_upper_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "LP_difference_MWh": 3.410605131648481e-13
+    },
+    {
+      "ts": 120.0,
+      "flow": 450.0,
+      "tank": "141a TTES",
+      "analytical_upper_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "LP_difference_MWh": 3.410605131648481e-13
+    },
+    {
+      "ts": 120.0,
+      "flow": 450.0,
+      "tank": "141b Large TTES",
+      "analytical_upper_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "LP_difference_MWh": 3.410605131648481e-13
+    }
+  ],
+  "derived_Tsup_max_HP_cut_C": 115.9009009009009,
+  "derived_required_flow_lower_bound_kg_s": 156.20602307908808,
+  "service_demand_SCENARIO_MW": 36.5,
+  "original_flow_contract_SCENARIO_kg_s": 150,
+  "hydraulic_Tsup_min_at_original_flow_C": 118.21371610845296,
+  "feasible_temperature_interval_at_150kg_s": "EMPTY even in optimistic heat envelope",
+  "required_overhead_usable_fraction_energy_lower_bound": 0.8343815513626829,
+  "overhead_fraction_interpretation": "Necessary gross-energy condition only; must not assert83pct heat recovery is physically available.",
+  "secondary_service_adaptation_scenarios": [
+    {
+      "primary_Tsup_C": 80,
+      "primary_Tret_C": 60,
+      "secondary_Tsup_C": 80,
+      "secondary_Tret_C": 50,
+      "minimum_approach_K_SCENARIO": 5,
+      "secondary_HX_gate_pass": false,
+      "required_primary_flow_kg_s": 436.60287081339715,
+      "required_UA_MW_K": null,
+      "optimistic_CCS_thermal_gate_pass": true,
+      "allowed_interpretation": "Separate consumer-side80/50C scenario. Passing heat/flow/HX cuts remains necessary, not sufficient. No free emitter/pipe/HX adaptation."
+    },
+    {
+      "primary_Tsup_C": 85,
+      "primary_Tret_C": 60,
+      "secondary_Tsup_C": 80,
+      "secondary_Tret_C": 50,
+      "minimum_approach_K_SCENARIO": 5,
+      "secondary_HX_gate_pass": true,
+      "required_primary_flow_kg_s": 349.28229665071774,
+      "required_UA_MW_K": 5.0599744180876005,
+      "optimistic_CCS_thermal_gate_pass": true,
+      "allowed_interpretation": "Separate consumer-side80/50C scenario. Passing heat/flow/HX cuts remains necessary, not sufficient. No free emitter/pipe/HX adaptation."
+    },
+    {
+      "primary_Tsup_C": 100,
+      "primary_Tret_C": 60,
+      "secondary_Tsup_C": 80,
+      "secondary_Tret_C": 50,
+      "minimum_approach_K_SCENARIO": 5,
+      "secondary_HX_gate_pass": true,
+      "required_primary_flow_kg_s": 218.30143540669857,
+      "required_UA_MW_K": 2.5299872090438003,
+      "optimistic_CCS_thermal_gate_pass": true,
+      "allowed_interpretation": "Separate consumer-side80/50C scenario. Passing heat/flow/HX cuts remains necessary, not sufficient. No free emitter/pipe/HX adaptation."
+    },
+    {
+      "primary_Tsup_C": 115.9009009009009,
+      "primary_Tret_C": 60,
+      "secondary_Tsup_C": 80,
+      "secondary_Tret_C": 50,
+      "minimum_approach_K_SCENARIO": 5,
+      "secondary_HX_gate_pass": true,
+      "required_primary_flow_kg_s": 156.2060230790881,
+      "required_UA_MW_K": 1.801229675987136,
+      "optimistic_CCS_thermal_gate_pass": true,
+      "allowed_interpretation": "Separate consumer-side80/50C scenario. Passing heat/flow/HX cuts remains necessary, not sufficient. No free emitter/pipe/HX adaptation."
+    },
+    {
+      "primary_Tsup_C": 120,
+      "primary_Tret_C": 60,
+      "secondary_Tsup_C": 80,
+      "secondary_Tret_C": 50,
+      "minimum_approach_K_SCENARIO": 5,
+      "secondary_HX_gate_pass": true,
+      "required_primary_flow_kg_s": 145.5342902711324,
+      "required_UA_MW_K": 1.6866581393625337,
+      "optimistic_CCS_thermal_gate_pass": false,
+      "allowed_interpretation": "Separate consumer-side80/50C scenario. Passing heat/flow/HX cuts remains necessary, not sufficient. No free emitter/pipe/HX adaptation."
+    }
+  ],
+  "generalized_conditions": [
+    "D <= sum source useful heat",
+    "D <= m_max*c*(Tsup-Tret)",
+    "For every theta<Tsup: D*(1-(theta-Tret)/(Tsup-Tret)) <= available heat above theta",
+    "Tsup >= consumer_supply + minimum_approach; Tret >= consumer_return + minimum_approach",
+    "UA >= D/LMTD at matched consumer supply/return; finite pump/pipe capacity must be checked",
+    "Every compared plant must meet the same contract before assigning climate/economic benefits"
+  ],
+  "claims_not_supported": [
+    "Exact hot-stream heat-exchanger network attainability",
+    "Measured operating reliability",
+    "Financially optimal first investment",
+    "EU27 prevalence or likelihood",
+    "Two full independently validated process cases"
+  ]
+}

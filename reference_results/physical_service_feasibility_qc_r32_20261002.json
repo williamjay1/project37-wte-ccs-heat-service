@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-05T06:35:31.689288+00:00",
+  "LPs": 72,
+  "pairs": 36,
+  "false_service_feasibility_count": 5,
+  "false_service_feasibility_cases": [
+    {
+      "profile": "constant_service",
+      "model": "temperature_cascade",
+      "temperature": 120,
+      "store_hours": 0,
+      "both_service_feasible": false,
+      "noCCS_service_feasible": true,
+      "CCS_service_feasible": false,
+      "CCS_unserved_MWh": 177.76744186046494,
+      "noCCS_unserved_MWh": 0.0
+    },
+    {
+      "profile": "constant_service",
+      "model": "temperature_cascade",
+      "temperature": 120,
+      "store_hours": 24,
+      "both_service_feasible": false,
+      "noCCS_service_feasible": true,
+      "CCS_service_feasible": false,
+      "CCS_unserved_MWh": 177.76744186046494,
+      "noCCS_unserved_MWh": 0.0
+    },
+    {
+      "profile": "constant_service",
+      "model": "temperature_cascade",
+      "temperature": 120,
+      "store_hours": 168,
+      "both_service_feasible": false,
+      "noCCS_service_feasible": true,
+      "CCS_service_feasible": false,
+      "CCS_unserved_MWh": 177.76744186046494,
+      "noCCS_unserved_MWh": 0.0
+    },
+    {
+      "profile": "synthetic_week",
+      "model": "temperature_cascade",
+      "temperature": 120,
+      "store_hours": 24,
+      "both_service_feasible": false,
+      "noCCS_service_feasible": true,
+      "CCS_service_feasible": false,
+      "CCS_unserved_MWh": 244.6667648747604,
+      "noCCS_unserved_MWh": 0.0
+    },
+    {
+      "profile": "synthetic_week",
+      "model": "temperature_cascade",
+      "temperature": 120,
+      "store_hours": 168,
+      "both_service_feasible": false,
+      "noCCS_service_feasible": true,
+      "CCS_service_feasible": false,
+      "CCS_unserved_MWh": 244.6667648747604,
+      "noCCS_unserved_MWh": 0.0
+    }
+  ],
+  "max_eq_error": 2.842170943040401e-14,
+  "max_ub_violation": 0.0,
+  "total_solver_seconds": 0.7595515000284649,
+  "status": "PROTOTYPE PASS, not two-source full process-validation gate",
+  "main_boundary": "Feasibility first: do not calculate matched-service carbon thresholds or investment ranks for infeasible pairs. No backup fuel allowed.",
+  "novel_claim_status": "Candidate wrong-order/service mechanism demonstrated in declared scenarios; full independent-case and cost ranking pending.",
+  "matrix_scope": "Published Su BP anchor only; 168h constant/synthetic week, NOT full public demand years; tanks/temperature grades are scenarios."
+}

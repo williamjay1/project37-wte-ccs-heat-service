@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-05T06:38:16.210384+00:00",
+  "source_card": "Supplement PDF page13/TableSM5.1; page12/FigureSM5.1; Su2023 main Table3/4bar extraction",
+  "checks": 8,
+  "thermal_input_relative_error_percent": -0.022457158651190134,
+  "net_CCS_aux_closure_range_MW": [
+    6.169999999999999,
+    6.180999999999999
+  ],
+  "PCC_heat_state_range_MW": [
+    18.805588587637807,
+    18.89504488621758
+  ],
+  "printed_PCC_heat_MW": 18.9,
+  "captured_mass_PCC_heat_MW": 19.158,
+  "saturation_3p21bar_C": 135.8477198130529,
+  "reboiler125C_10K_plateau_margin_K": 0.8477198130528905,
+  "main_source_saturation4bar_C": 143.6125329983828,
+  "DH_water_contract_SOURCE_C": [
+    80,
+    60
+  ],
+  "same_process_lineage_as_Su2023": true,
+  "unresolved": [
+    "DH condensate return is not DH-water return",
+    "Complete independently reproduced turbine/net-power state is unavailable",
+    "Diagram3.21bar/136C differs from table144/136C and Su main4bar; no fit or averaging",
+    "New80/60C source contract does not validate100/120C transfer"
+  ],
+  "acceptance": "Recorded arithmetic/state checks, including discrepancies; not full process/hardware or LCA reproduction"
+}

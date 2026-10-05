@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-10-05",
+  "storage_source": {
+    "url": "https://ens.dk/media/6589/download",
+    "sha256": "227c63de212697978815a0a6ed86d84527899d2ae309fd411a6a8490fe122405",
+    "bytes": 336703,
+    "locator": "Index!C9",
+    "actual_cell_text": "This work is licensed under Attribution 4.0 International",
+    "method": "Independent openpyxl read of already acquired immutable official XLSX; no original workbook included in repository."
+  },
+  "plan_to_act": {
+    "url": "https://zenodo.org/records/21834587",
+    "metadata_license_id": "cc-by-4.0",
+    "creator": "Prina, Matteo Giacomo",
+    "method": "Actual previously acquired original Zenodo API metadata inspected; selected derived profiles attributed and changes identified."
+  },
+  "uba": {
+    "url": "https://www.umweltbundesamt.de/en/disclaimer-privacy-policy-copyright",
+    "locator": "Section C, copyright and trademark rights; data and metadata use paragraph",
+    "html_sha256": "dd28b682e8bf5e36048ee46b590a27b59b279bee9fed1555e3c6906e328ddafb",
+    "acquired_utc": "2026-10-05T08:53:11.9392682Z",
+    "interpretation": "Use, modification and third-party transmission of data allowed unless otherwise noted, with UBA source attribution and modifications identified. No blanket CC license inferred for source report expression.",
+    "original_policy_html_redistributed": false
+  },
+  "github_zenodo": {
+    "github_guide_sha256": "d3c7764bb7790359a354bebbf7102b4f68aaa85b9476b6a51402cb99e4d561df",
+    "zenodo_cff_guide_sha256": "ff2e3cc4e827a91a8ddb926cfadf69644dfd2c1f81432579731bdd280625a05c",
+    "status": "Official guides read and originals retained outside repository; no deposit, DOI or responsible-author metadata asserted."
+  }
+}

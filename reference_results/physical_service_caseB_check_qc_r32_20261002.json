@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-05T06:35:33.804233+00:00",
+  "cases": 2,
+  "rows": 36,
+  "max_internal_heat_cancellation_MW": 3.552713678800501e-15,
+  "max_mass_error": 7.105427357601002e-15,
+  "linth_penalty_percent_scenario_range": [
+    33.95716576464208,
+    37.2005533216675
+  ],
+  "linth_published_penalty_percent": 37,
+  "hagenholz_DR_heat_upper_scenario_range_MW": [
+    59.607633765210785,
+    69.48208500974178
+  ],
+  "hagenholz_published_DR_ANNUAL_MEAN_MW": 53.7,
+  "comparison_boundary": "Table4 53.7MW is the annual mean of a clipped monthly demand, NOT the instantaneous steam ceiling. Do not compare it with the calculated ceiling as a reproduction error.",
+  "table4_HP_ledger_check": {
+    "heat_deficit_MW": 10.700000000000003,
+    "COP_INPUT": 5.5,
+    "predicted_net_power_MW": 13.354545454545455,
+    "reported_net_power_MW": 13.3,
+    "difference_MW": 0.054545454545454675,
+    "level": "Source output arithmetic consistency, NOT independent steam-cycle validation"
+  },
+  "hagenholz_unmatched99_count": 18,
+  "status": "CONDITIONAL: exact differential algebra checks passed; source-range overlap is NOT independent validation.",
+  "hours_status": "8000,8245,8760 are explicit scenarios; 8245 is illustrative, not independently observed operating time.",
+  "temperature_gate": "Zanco2021 permits optimized reboiler temperatures up to150C. The actual10m-packing/99pct solution temperature is not yet supplied:139C steam alone cannot establish a feasible reboiler pinch."
+}

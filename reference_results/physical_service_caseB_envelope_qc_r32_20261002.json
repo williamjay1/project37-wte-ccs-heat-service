@@ -1,0 +1,1055 @@
+{
+  "created_utc": "2026-10-05T06:35:42.386143+00:00",
+  "LPs": 384,
+  "steam_cases": [
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO": 0,
+      "capture": 0,
+      "steam_DH_limit_MW": 98.37992349935449,
+      "mLP_at_limit": -5.826450433232822e-13,
+      "minimum_mLP_SOURCE": 0,
+      "steam_power_cost_MW_per_MWheat": 0.042155922934714596,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO": 0,
+      "capture": 0.99,
+      "steam_DH_limit_MW": 59.6262131640385,
+      "mLP_at_limit": 7.105427357601002e-14,
+      "minimum_mLP_SOURCE": 0,
+      "steam_power_cost_MW_per_MWheat": 0.04215592293471104,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO": 3.4,
+      "capture": 0,
+      "steam_DH_limit_MW": 95.03768708427985,
+      "mLP_at_limit": -5.613287612504791e-13,
+      "minimum_mLP_SOURCE": 0,
+      "steam_power_cost_MW_per_MWheat": 0.042155922934714596,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO": 3.4,
+      "capture": 0.99,
+      "steam_DH_limit_MW": 56.28397674896392,
+      "mLP_at_limit": 6.750155989720952e-14,
+      "minimum_mLP_SOURCE": 0,
+      "steam_power_cost_MW_per_MWheat": 0.04215592293471104,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO": 0,
+      "capture": 0,
+      "steam_DH_limit_MW": 89.48648605108384,
+      "mLP_at_limit": 9.237055564881302e-14,
+      "minimum_mLP_SOURCE": 0,
+      "steam_power_cost_MW_per_MWheat": 0.042155922934714596,
+      "mass_error": 7.105427357601002e-15
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO": 0,
+      "capture": 0.99,
+      "steam_DH_limit_MW": 54.09496976312547,
+      "mLP_at_limit": 6.394884621840902e-14,
+      "minimum_mLP_SOURCE": 0,
+      "steam_power_cost_MW_per_MWheat": 0.042155922934714596,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO": 3.4,
+      "capture": 0,
+      "steam_DH_limit_MW": 86.14424963600926,
+      "mLP_at_limit": 9.947598300641403e-14,
+      "minimum_mLP_SOURCE": 0,
+      "steam_power_cost_MW_per_MWheat": 0.042155922934714596,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Hagenholz_2027",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO": 3.4,
+      "capture": 0.99,
+      "steam_DH_limit_MW": 50.752733348050896,
+      "mLP_at_limit": 6.039613253960852e-14,
+      "minimum_mLP_SOURCE": 0,
+      "steam_power_cost_MW_per_MWheat": 0.04215592293471104,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Linth",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO": 0,
+      "capture": 0,
+      "steam_DH_limit_MW": 26.810398634732564,
+      "mLP_at_limit": 2.1000000000000068,
+      "minimum_mLP_SOURCE": 2.1,
+      "steam_power_cost_MW_per_MWheat": 0.1143069378542716,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Linth",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO": 0,
+      "capture": 0.99,
+      "steam_DH_limit_MW": 14.194882672232543,
+      "mLP_at_limit": 2.1000000000000156,
+      "minimum_mLP_SOURCE": 2.1,
+      "steam_power_cost_MW_per_MWheat": 0.1143069378542716,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Linth",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO": 3.4,
+      "capture": 0,
+      "steam_DH_limit_MW": 23.410398634732566,
+      "mLP_at_limit": 2.1000000000000068,
+      "minimum_mLP_SOURCE": 2.1,
+      "steam_power_cost_MW_per_MWheat": 0.1143069378542716,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Linth",
+      "hours_SCENARIO": 8000,
+      "internal_heat_SCENARIO": 3.4,
+      "capture": 0.99,
+      "steam_DH_limit_MW": 10.794882672232577,
+      "mLP_at_limit": 2.100000000000005,
+      "minimum_mLP_SOURCE": 2.1,
+      "steam_power_cost_MW_per_MWheat": 0.1143069378542716,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Linth",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO": 0,
+      "capture": 0,
+      "steam_DH_limit_MW": 24.014183276992412,
+      "mLP_at_limit": 2.1000000000000068,
+      "minimum_mLP_SOURCE": 2.1,
+      "steam_power_cost_MW_per_MWheat": 0.1143069378542716,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Linth",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO": 0,
+      "capture": 0.99,
+      "steam_DH_limit_MW": 12.493164133156803,
+      "mLP_at_limit": 2.100000000000005,
+      "minimum_mLP_SOURCE": 2.1,
+      "steam_power_cost_MW_per_MWheat": 0.11430693785427337,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Linth",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO": 3.4,
+      "capture": 0,
+      "steam_DH_limit_MW": 20.614183276992506,
+      "mLP_at_limit": 2.0999999999999712,
+      "minimum_mLP_SOURCE": 2.1,
+      "steam_power_cost_MW_per_MWheat": 0.1143069378542716,
+      "mass_error": 0.0
+    },
+    {
+      "case": "Linth",
+      "hours_SCENARIO": 8760,
+      "internal_heat_SCENARIO": 3.4,
+      "capture": 0.99,
+      "steam_DH_limit_MW": 9.093164133156806,
+      "mLP_at_limit": 2.100000000000003,
+      "minimum_mLP_SOURCE": 2.1,
+      "steam_power_cost_MW_per_MWheat": 0.1143069378542716,
+      "mass_error": 0.0
+    }
+  ],
+  "conditional_reboiler_checks": [
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Hagenholz_2027",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 125,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": true,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 135,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 5,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    },
+    {
+      "case": "Linth",
+      "capture": 0.99,
+      "Treb_SCENARIO_C": 145,
+      "pinch_SCENARIO_K": 10,
+      "steam_SOURCE_C": 139,
+      "reboiler_gate_pass": false,
+      "interpretation": "Conditional temperature test: optimized PZ temperature is not published; not measured operating rejection."
+    }
+  ],
+  "aggregate_false_passes_with_base_pass": [],
+  "sourceB_120C_base_failures": 24,
+  "max_mass_error": 7.105427357601002e-15,
+  "max_eq_error": 0.0,
+  "solver_seconds": 2.992409699567361,
+  "interpretation": "Second-source steam-domain transfer checks, not independent full plant reproduction or certified hardware. H120C failure also affects noCCS: exclude BOTH, do not attribute its topology limit to CCS.",
+  "status": "Computed and checked conditional sourceB envelope; full two-case reproduction gate remains open."
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS actual raw-to-clean CSV computation",
+  "rows": 80,
+  "raw_sha256": "fae845b7ecf2a5fd6e78ef9be453e0b99491e73a925c2b036bf1bdaa67546966",
+  "clean_sha256": "c483dbfb654537bb4534f540b39f4e2c3e6bdc1a2773f34ed1396c2daafc81ea",
+  "license": "Owner-published CC0",
+  "scope": "Monthly exports/generation, Switzerland nonEU. Difference gross-minus-sales is not isolated internal demand. Incomplete2026 excluded from annual cuts."
+}

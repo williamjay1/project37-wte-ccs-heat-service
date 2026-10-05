@@ -1,0 +1,47 @@
+{
+  "status": "Figures drawn from actual IF97 r35 outputs",
+  "annual_values": [
+    {
+      "proxy": "Oberland",
+      "unserved_matrix_MWh": [
+        [
+          0.0,
+          0.0,
+          3.011474548871334
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "proxy": "Porto metropolitan area",
+      "unserved_matrix_MWh": [
+        [
+          6870.7248441146785,
+          6804.264095675581,
+          8652.579202228188
+        ],
+        [
+          5361.027275653003,
+          5302.532295279722,
+          6546.991598363051
+        ],
+        [
+          1888.714502399298,
+          1822.1465667509895,
+          2854.215517624415
+        ]
+      ]
+    }
+  ],
+  "warning": "Necessary optimistic domains; no certified attainability or actual investment profit",
+  "vector_PDFs": 3
+}

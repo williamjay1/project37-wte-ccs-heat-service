@@ -1,0 +1,11 @@
+{
+  "title": "WtE-CCS thermal-service assessment: reproducible code and data",
+  "version": "1.0.0",
+  "repository_url": "https://github.com/williamjay1/project37-wte-ccs-heat-service",
+  "date_released": null,
+  "authors": [],
+  "version_doi": null,
+  "concept_doi": null,
+  "human_release_review_complete": false,
+  "note": "Fill real software/research contributor details; do not infer authorship from a GitHub login. Leave DOI null until genuinely assigned. Version is the planned first release, not an existing public tag."
+}

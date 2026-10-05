@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+cache/
+logs/
+temp/
+results/
+.DS_Store
+Thumbs.db
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz

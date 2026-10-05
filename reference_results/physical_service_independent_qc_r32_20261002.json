@@ -1,0 +1,111 @@
+{
+  "status": "PASS within declared prototype",
+  "independent_tests": 13,
+  "tests": [
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 80,
+      "store_hours": 0.0,
+      "analytic_max_delivery_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "error_MWh": 0.0
+    },
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 80,
+      "store_hours": 24.0,
+      "analytic_max_delivery_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "error_MWh": 0.0
+    },
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 80,
+      "store_hours": 168.0,
+      "analytic_max_delivery_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "error_MWh": 0.0
+    },
+    {
+      "test": "Ideal-size cyclic tank cannot undo constant-grade cut",
+      "temperature_C": 80,
+      "store_hours": 10000,
+      "unserved_MWh": 0.0
+    },
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 100,
+      "store_hours": 0.0,
+      "analytic_max_delivery_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "error_MWh": 0.0
+    },
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 100,
+      "store_hours": 24.0,
+      "analytic_max_delivery_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "error_MWh": 0.0
+    },
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 100,
+      "store_hours": 168.0,
+      "analytic_max_delivery_MW": 37.37777777777778,
+      "expected_unserved_MWh": 0,
+      "error_MWh": 0.0
+    },
+    {
+      "test": "Ideal-size cyclic tank cannot undo constant-grade cut",
+      "temperature_C": 100,
+      "store_hours": 10000,
+      "unserved_MWh": 0.0
+    },
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 120,
+      "store_hours": 0.0,
+      "analytic_max_delivery_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "error_MWh": 3.410605131648481e-13
+    },
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 120,
+      "store_hours": 24.0,
+      "analytic_max_delivery_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "error_MWh": 3.410605131648481e-13
+    },
+    {
+      "test": "Independent constant-load cascade cut",
+      "temperature_C": 120,
+      "store_hours": 168.0,
+      "analytic_max_delivery_MW": 35.44186046511628,
+      "expected_unserved_MWh": 177.76744186046528,
+      "error_MWh": 3.410605131648481e-13
+    },
+    {
+      "test": "Ideal-size cyclic tank cannot undo constant-grade cut",
+      "temperature_C": 120,
+      "store_hours": 10000,
+      "unserved_MWh": 25.395348837209276
+    },
+    {
+      "test": "NoCCS still fails above available steam service temperature",
+      "temperature_C": 150,
+      "unserved_MWh": 876.0
+    }
+  ],
+  "service_target_MW": 36.5,
+  "derived_HP_cut_supply_temperature_limit_C": 115.9009009009009,
+  "boiler_source_cases": "UK Fuel Su generic BP anchor; no population extrapolation",
+  "not_verified": [
+    "Full steam-cycle output reproduction in two independent process cases",
+    "DEA tank/heat-pump cost and temperature ranges",
+    "Annual public shape simulations",
+    "Climate threshold errors and monetary investment ordering"
+  ],
+  "formulas": "For all cold-composite cuts theta: sum heat delivered below theta <= D_delivered*(theta-Tret)/(Tsup-Tret). Hence D <= Q_above_theta/(1-(theta-Tret)/(Tsup-Tret)) when other heat is below theta. Cyclic inventory cannot create high-grade annual heat."
+}

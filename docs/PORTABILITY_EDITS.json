@@ -1,0 +1,13 @@
+{
+  "scientific_changes": false,
+  "frozen_input_hashes_unchanged": true,
+  "changed_existing_files": [
+    {
+      "path": "src/physical_service_volume_flow_r32_20261002.py",
+      "original_sha256": "967ba66001db0184db5e43fed9b8f5adde887060b440231bc8c4db05892b85c4",
+      "prepared_sha256": "8fd61d0f6a8d8d5ed7715491f73fe0cbd57d39bf0e79957e45d61161bb314c67"
+    }
+  ],
+  "change": "Absolute raw-source fallback replaced by explicit PROJECT37_STORAGE_WORKBOOK; shipped-input branch and numerical equations unchanged.",
+  "wrappers": "New portable 28-stage runner, original26scientific stages plus2graphics stages;27of28existing top-level Python files byte-identical/1narrow-portability-edit."
+}

@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-05T06:37:53.570993+00:00",
+  "status": "PASS",
+  "rows": 2592,
+  "checked_numbers": 12966,
+  "max_relative_error": 1.5930417429713682e-13,
+  "scope": "Independent algebra/units/all-row ledger check, not empirical validation or certified heat-service attainability."
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "supply": 95,
+    "capture": 0,
+    "model": "rectangular_inlet_grade",
+    "min_MW": 45.65676899448039,
+    "max_MW": 58.85653363151951
+  },
+  {
+    "supply": 95,
+    "capture": 0,
+    "model": "condensation_cut",
+    "min_MW": 45.65676899448039,
+    "max_MW": 58.85653363151951
+  },
+  {
+    "supply": 95,
+    "capture": 0.99,
+    "model": "rectangular_inlet_grade",
+    "min_MW": 40.283723550070874,
+    "max_MW": 53.330438199513154
+  },
+  {
+    "supply": 95,
+    "capture": 0.99,
+    "model": "condensation_cut",
+    "min_MW": 40.283723550070874,
+    "max_MW": 53.330438199513154
+  },
+  {
+    "supply": 100,
+    "capture": 0,
+    "model": "rectangular_inlet_grade",
+    "min_MW": 51.39186213253268,
+    "max_MW": 66.24969152669337
+  },
+  {
+    "supply": 100,
+    "capture": 0,
+    "model": "condensation_cut",
+    "min_MW": 32.75709304583639,
+    "max_MW": 42.81641361382624
+  },
+  {
+    "supply": 100,
+    "capture": 0.99,
+    "model": "rectangular_inlet_grade",
+    "min_MW": 40.283723550070874,
+    "max_MW": 53.330438199513154
+  },
+  {
+    "supply": 100,
+    "capture": 0.99,
+    "model": "condensation_cut",
+    "min_MW": 40.283723550070874,
+    "max_MW": 53.330438199513154
+  }
+]

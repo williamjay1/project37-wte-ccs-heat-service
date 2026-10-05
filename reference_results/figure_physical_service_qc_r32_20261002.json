@@ -1,0 +1,47 @@
+{
+  "status": "Figures drawn from actual frozen r32 outputs",
+  "annual_values": [
+    {
+      "proxy": "Oberland",
+      "unserved_matrix_MWh": [
+        [
+          0.0,
+          0.0,
+          2.7357439249413797
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "proxy": "Porto metropolitan area",
+      "unserved_matrix_MWh": [
+        [
+          6870.7248441146785,
+          6804.264095675581,
+          8583.665298187116
+        ],
+        [
+          5365.237766854434,
+          5306.742654831953,
+          6481.935670046194
+        ],
+        [
+          1895.6541969153782,
+          1829.0857210407275,
+          2839.8133559011853
+        ]
+      ]
+    }
+  ],
+  "warning": "Necessary optimistic domains; no certified attainability or actual investment profit",
+  "vector_PDFs": 3
+}

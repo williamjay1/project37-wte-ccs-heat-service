@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-05T06:38:22.182668+00:00",
+  "status": "PASS independent 12-period energy LP and necessary-cut algebra",
+  "energy_lp_cases": 384,
+  "max_energy_LP_vs_circular_cut_MW": 4.263256414560601e-14,
+  "max_LP_balance_MWh": 4.3655745685100555e-11,
+  "phase_monotonicity_checks": 192,
+  "storage_monotonicity_checks": 192,
+  "calendar_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "processed_sha256": "c483dbfb654537bb4534f540b39f4e2c3e6bdc1a2773f34ed1396c2daafc81ea",
+  "limits": "Monthly total-energy relaxation only. Infinite charge/discharge power, no loss/outage, normalized sales NOT demand. Not independent validation of steam/temperature inputs or annual physical service."
+}

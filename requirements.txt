@@ -1,0 +1,8 @@
+numpy==2.5.1
+scipy==1.18.0
+matplotlib==3.11.1
+iapws==1.5.5
+openpyxl==3.1.5
+PyMuPDF==1.28.2
+
+Pillow==12.3.0

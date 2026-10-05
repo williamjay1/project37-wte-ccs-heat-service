@@ -1,0 +1,351 @@
+{
+  "inputs": [
+    {
+      "path": "datasets/hagenholz_operator_raw_cc0_20261002.csv",
+      "units": "Waste and residues t; heat/electricity MWh; monthly.",
+      "claim_boundary": "Observed monthly exports/generation, Switzerland non-EU; not customer demand, hourly monitoring or CCS operations.",
+      "rows": 80,
+      "columns": [
+        {
+          "name": "Monat",
+          "empty_cells": 0,
+          "dtype": "text",
+          "distinct_values": 80
+        },
+        {
+          "name": "Kehrichtdurchsatz",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 10831.0,
+          "maximum": 24408.0
+        },
+        {
+          "name": "Abtransp_Restprodukte",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 1699.0,
+          "maximum": 5384.0
+        },
+        {
+          "name": "Waermeabsatz",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 19733.0,
+          "maximum": 58199.0
+        },
+        {
+          "name": "Stromabsatz",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.0,
+          "maximum": 10840.0
+        },
+        {
+          "name": "Stromproduktion",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.0,
+          "maximum": 12931.0
+        },
+        {
+          "name": "Trinkwasserverbrauch",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 7299.0,
+          "maximum": 19085.0
+        },
+        {
+          "name": "Ammoniakverbrauch",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 38.0,
+          "maximum": 102.0
+        },
+        {
+          "name": "Natronlaugeverbrauch",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 7.0,
+          "maximum": 90.0
+        },
+        {
+          "name": "Salzsaeureverbrauch",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 5.0,
+          "maximum": 195.0
+        },
+        {
+          "name": "Kalkverbrauch",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 5.0,
+          "maximum": 60.0
+        },
+        {
+          "name": "Monatsende",
+          "empty_cells": 0,
+          "dtype": "text",
+          "distinct_values": 80
+        },
+        {
+          "name": "Jahr",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 2020.0,
+          "maximum": 2026.0
+        },
+        {
+          "name": "Monat_num",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 1.0,
+          "maximum": 12.0
+        }
+      ]
+    },
+    {
+      "path": "datasets/scaled_heat_proxy_profiles_5regions_20260929.csv",
+      "units": "hour index; normalized proxy MWh per declared 1 GWh annual total",
+      "claim_boundary": "Modeled proxy timing, not measured network demand or representative EU sample.",
+      "rows": 43920,
+      "columns": [
+        {
+          "name": "shape_region",
+          "empty_cells": 0,
+          "dtype": "text",
+          "distinct_values": 5
+        },
+        {
+          "name": "hour_index",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.0,
+          "maximum": 8783.0
+        },
+        {
+          "name": "annual_heat_gwh_source",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "name": "proxy_heat_mwh",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.0,
+          "maximum": 0.6376885461861762
+        },
+        {
+          "name": "shape_status",
+          "empty_cells": 0,
+          "dtype": "text",
+          "distinct_values": 1
+        }
+      ]
+    },
+    {
+      "path": "datasets/dea_ccs_benchmark_transcription_20260930.json",
+      "units": "EUR2020; tCO2/h; years; MWh/tCO2",
+      "claim_boundary": "Generic capacity-based stress; not a site quote, actual marginal95%-vs99% train cost or investment-optimal sequence.",
+      "top_level_fields": {
+        "url": "str",
+        "raw_file": "str",
+        "bytes": "int",
+        "sha256": "str",
+        "retrieved": "str",
+        "sheet": "str",
+        "currency": "str",
+        "license": "str",
+        "cells": "dict",
+        "notes": "dict"
+      }
+    },
+    {
+      "path": "datasets/dea_storage_141_transcription_r32_20261002.json",
+      "units": "m3; C; MW; MWh; loss fraction/day; auxiliary fraction; EUR2025",
+      "claim_boundary": "Optimistic generic finite tank templates; not installed hardware, exact stratification, full connection quotation or source-SOC loss identity.",
+      "top_level_fields": {
+        "created_utc": "str",
+        "source_url": "str",
+        "source_sha256": "str",
+        "source_version": "str",
+        "rights": "str",
+        "records": "list",
+        "locators": "list",
+        "verification": "str"
+      }
+    },
+    {
+      "path": "datasets/joint_feed_transition_properties_20260930.csv",
+      "units": "kt; GJ/t; tCO2/t; dimensionless carbon and energy ratios",
+      "claim_boundary": "Synthetic transition coordinates, not observed annual plant compositions; pipeline begins from this declared derived boundary.",
+      "rows": 42,
+      "columns": [
+        {
+          "name": "feed_mode",
+          "empty_cells": 0,
+          "dtype": "text",
+          "distinct_values": 2
+        },
+        {
+          "name": "transition_coordinate",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        {
+          "name": "synthetic_year_coordinate",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 2017.0,
+          "maximum": 2030.0
+        },
+        {
+          "name": "inc_first_treatment_kt",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 38819.0,
+          "maximum": 47123.0
+        },
+        {
+          "name": "inc_flow_over_initial",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.8237803195891603,
+          "maximum": 1.0
+        },
+        {
+          "name": "residual_stock_kt",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 70939.0,
+          "maximum": 122101.0
+        },
+        {
+          "name": "lhv_gj_per_t",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 9.92094864045864,
+          "maximum": 10.60564589794192
+        },
+        {
+          "name": "gross_co2_t_per_t",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.9659545813165603,
+          "maximum": 1.0195371863546663
+        },
+        {
+          "name": "fossil_share",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.4191766694492069,
+          "maximum": 0.4679214324853373
+        },
+        {
+          "name": "fossil_carbon_fraction_fresh",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.11111069287469288,
+          "maximum": 0.12956404849168313
+        },
+        {
+          "name": "biogenic_carbon_fraction_fresh",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.1471226828683799,
+          "maximum": 0.1539581932841933
+        },
+        {
+          "name": "mass_removal_error_kt",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.0,
+          "maximum": 1.0913936421275139e-11
+        },
+        {
+          "name": "gross_heat_gj_per_initial_t",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 4.018442970442013,
+          "maximum": 4.5754035757282905
+        },
+        {
+          "name": "gross_heat_over_initial_reference",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.8782707151253596,
+          "maximum": 1.0
+        },
+        {
+          "name": "gross_power_gj_per_initial_t",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 1.397719294066787,
+          "maximum": 1.591444721992449
+        },
+        {
+          "name": "ccs_power_loss_gj_per_initial_t",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.5928885645582697,
+          "maximum": 0.6868136301654383
+        },
+        {
+          "name": "ccs_heat_export_loss_gj_per_initial_t",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 1.9242840841317066,
+          "maximum": 2.2393019502702707
+        },
+        {
+          "name": "ccs_external_reboiler_heat_gj_per_initial_t",
+          "empty_cells": 0,
+          "dtype": "numeric",
+          "minimum": 0.0,
+          "maximum": 0.0
+        }
+      ]
+    },
+    {
+      "path": "datasets/herraiz2026_process_table_r33_20261002.json",
+      "units": "MW; MJ/kgCO2; bar; C; kg/s; t/day",
+      "claim_boundary": "Same Su model lineage, UK non-EU; source identity/arithmetic checks, not independent plant replication or copied commercial LCA.",
+      "top_level_fields": {
+        "source": "str",
+        "doi": "str",
+        "main_url": "str",
+        "supplement_url": "str",
+        "locators": "str",
+        "access": "str",
+        "scope": "str",
+        "rights": "str",
+        "waste_t_day": "int",
+        "LHV_MJ_kg": "float",
+        "thermal_input_MW": "float",
+        "gross_CHP_power_MW": "float",
+        "net_CCS_CHP_power_MW": "float",
+        "rounded_aux_MW": "list",
+        "detailed_aux_MW": "list",
+        "DH_steam_mass_kg_s": "list",
+        "DH_heat_MW": "list",
+        "DH_heat_GJ_t_waste": "list",
+        "DH_water_supply_C": "int",
+        "DH_water_return_C": "int",
+        "PCC_steam_mass_kg_s": "float",
+        "PCC_heat_MW": "float",
+        "table_PCC_steam_supply_C": "int",
+        "table_PCC_condensate_return_C": "int",
+        "captured_CO2_kg_s": "float",
+        "specific_reboiler_MJ_kg_CO2": "float",
+        "diagram_PCC_pressure_bar": "float",
+        "diagram_PCC_temperature_C": "int",
+        "Su_main_extraction_pressure_bar": "int",
+        "pressure_scope": "str"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-05T06:38:12.442166+00:00",
+  "status": "PASS independent steam-phase formulas and dense-state bounds",
+  "state_grid_evaluations": 410041,
+  "Su_rows": 160,
+  "Swiss_rows": 192,
+  "certificate_rows": 4,
+  "maximum_scaled_error": 3.662268483749301e-13,
+  "comparisons": 298,
+  "actual_dense_minimum_latent_fraction": 0.7289186645243826,
+  "actual_dense_maximum_superheat_fraction": 0.171025185233926,
+  "validation_level": "Analytic/implementation verification only; not independent operational or proprietary process-simulator validation."
+}

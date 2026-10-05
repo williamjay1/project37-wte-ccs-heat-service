@@ -1,0 +1,179 @@
+{
+  "created_utc": "2026-10-05T06:35:29.786427+00:00",
+  "iapws_version": "1.5.5",
+  "property_formulation": "IAPWS-IF97; saturation convention for rounded extraction states",
+  "su_inputs": {
+    "throughput_main_t_day": 500,
+    "throughput_appendix_t_hour": 19.4,
+    "thermal_input_appendix_MW": 55.6,
+    "lhv_appendix_MJ_kg": 9.3,
+    "flue_mol_s": 1046,
+    "flue_kg_s": 30.71,
+    "co2_mole_fraction": 0.1111,
+    "co2_direct_kg_s": 5.168,
+    "steam_kg_s": 18.2,
+    "HP_temp_C": 400,
+    "HP_bar_main": 60,
+    "HP_bar_appendix": 40,
+    "IP_bar": 4,
+    "FW_bar": 6,
+    "FW_return_C": 137,
+    "FW_return_bar": 80,
+    "reboiler_C": 125,
+    "reboiler_pinch_K": 10,
+    "dh_supply_C": 80,
+    "dh_return_C": 60,
+    "compressor_heat_MW": 1.6,
+    "overhead_heat_MW": 5.3,
+    "DCC_source_MW": 9.8,
+    "hp_COP": 5.5,
+    "hp_delivery_limit_C": 77,
+    "condensing_min_fraction": 0.15
+  },
+  "su_partial_replication": [
+    {
+      "capture": 0.95,
+      "qreboiler_MW": 17.625464,
+      "ccs_steam_kg_s": 8.26193696474223,
+      "heat_loss_MW": 17.646547031103918,
+      "heat_basic_MW": 19.65345296889608,
+      "heat_advanced_aggregate_MW": 38.53123074667386,
+      "hp_source_MW": 9.8,
+      "hp_hot_MW": 11.97777777777778,
+      "hp_electric_MW": 2.177777777777778,
+      "hp_trim_from77_to80_MW": 2.1137254901960785,
+      "reboiler_temperature_margin_K": 8.61253299838279,
+      "note": "Partial energy/temperature replication. Full turbine power not independently reproduced."
+    },
+    {
+      "capture": 0.9972,
+      "qreboiler_MW": 19.171130112,
+      "ccs_steam_kg_s": 8.986468017421592,
+      "heat_loss_MW": 19.194062020768392,
+      "heat_basic_MW": 18.105937979231605,
+      "heat_advanced_aggregate_MW": 36.983715757009385,
+      "hp_source_MW": 9.8,
+      "hp_hot_MW": 11.97777777777778,
+      "hp_electric_MW": 2.177777777777778,
+      "hp_trim_from77_to80_MW": 2.1137254901960785,
+      "reboiler_temperature_margin_K": 8.61253299838279,
+      "note": "Partial energy/temperature replication. Full turbine power not independently reproduced."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Su flue CO2 molar reconstruction kg/s",
+      "calculated": 5.114428506,
+      "reported": 5.168,
+      "error_percent": -1.0366001160990679,
+      "tolerance_percent": 2,
+      "pass_printed_precision_or_tolerance": true,
+      "kind": "independent mass check",
+      "note": "Table1 rounded wet molar fractions vs Sec2.2 explicit CO2 rate, not fitted"
+    },
+    {
+      "check": "Su main vs Appendix throughput t/day",
+      "calculated": 465.59999999999997,
+      "reported": 500,
+      "error_percent": -6.880000000000007,
+      "tolerance_percent": 2,
+      "pass_printed_precision_or_tolerance": false,
+      "kind": "source inconsistency",
+      "note": "Appendix2 is reference calibration, not silently substituted for main generic case"
+    },
+    {
+      "check": "Su Appendix fuel MW from listed LHV and throughput",
+      "calculated": 50.11666666666667,
+      "reported": 55.6,
+      "error_percent": -9.862110311750602,
+      "tolerance_percent": 2,
+      "pass_printed_precision_or_tolerance": false,
+      "kind": "source inconsistency",
+      "note": "No forced reconciliation of Appendix2 entries"
+    },
+    {
+      "check": "Su boiler transfer MW at 40bar HP",
+      "calculated": 47.92020303458844,
+      "reported": 48.928000000000004,
+      "error_percent": -2.0597550797325965,
+      "tolerance_percent": 3,
+      "pass_printed_precision_or_tolerance": true,
+      "kind": "structural state check",
+      "note": "Appendix boiler efficiency88%, feed pressure80bar; main and Appendix HP pressures kept separate"
+    },
+    {
+      "check": "Su boiler transfer MW at 60bar HP",
+      "calculated": 47.26153610314054,
+      "reported": 48.928000000000004,
+      "error_percent": -3.4059513915538373,
+      "tolerance_percent": 3,
+      "pass_printed_precision_or_tolerance": false,
+      "kind": "structural state check",
+      "note": "Appendix boiler efficiency88%, feed pressure80bar; main and Appendix HP pressures kept separate"
+    },
+    {
+      "check": "Su heat-pump hot delivery MW",
+      "calculated": 11.97777777777778,
+      "reported": 12,
+      "error_percent": -0.18518518518516972,
+      "tolerance_percent": 3,
+      "pass_printed_precision_or_tolerance": true,
+      "kind": "independent first-law check",
+      "note": "Source DCC9.8MW; COP5.5; expected around12MW"
+    },
+    {
+      "check": "Su heat-pump electricity MW",
+      "calculated": 2.177777777777778,
+      "reported": 2.2,
+      "error_percent": -1.0101010101010064,
+      "tolerance_percent": 3,
+      "pass_printed_precision_or_tolerance": true,
+      "kind": "independent first-law check",
+      "note": "Uses Qhot=Qsource+Wel, not a free thermal credit"
+    },
+    {
+      "check": "Su BP basic heat at 95.00% MW",
+      "calculated": 19.65345296889608,
+      "reported": 19.9,
+      "error_percent": -1.238929804542307,
+      "tolerance_percent": 3,
+      "pass_printed_precision_or_tolerance": true,
+      "kind": "independent differential heat check",
+      "note": "Condensate at 4bar saturated liquid; derives return-credit correction from Otgonbayar balance; no fitting of baseline37.3MW"
+    },
+    {
+      "check": "Su BP advanced heat at 95.00% MW",
+      "calculated": 38.53123074667386,
+      "reported": 38.0,
+      "error_percent": 1.3979756491417448,
+      "tolerance_percent": 3,
+      "pass_printed_precision_or_tolerance": true,
+      "kind": "independent differential heat check",
+      "note": "Three published recovery duties held constant, approximate published aggregation; pump77C trimmed to80C separately"
+    },
+    {
+      "check": "Su BP basic heat at 99.72% MW",
+      "calculated": 18.105937979231605,
+      "reported": 18.5,
+      "error_percent": -2.130064977126459,
+      "tolerance_percent": 3,
+      "pass_printed_precision_or_tolerance": true,
+      "kind": "independent differential heat check",
+      "note": "Condensate at 4bar saturated liquid; derives return-credit correction from Otgonbayar balance; no fitting of baseline37.3MW"
+    },
+    {
+      "check": "Su BP advanced heat at 99.72% MW",
+      "calculated": 36.983715757009385,
+      "reported": 37.3,
+      "error_percent": -0.8479470321464132,
+      "tolerance_percent": 3,
+      "pass_printed_precision_or_tolerance": true,
+      "kind": "independent differential heat check",
+      "note": "Three published recovery duties held constant, approximate published aggregation; pump77C trimmed to80C separately"
+    }
+  ],
+  "otgonbayar_status": "Printed boiler/turbine states exist; qWtE, wWtE, operating hours and complete recovery stream curves not numerically supplied. Do NOT claim full reproduction or fit unknowns to results.",
+  "otgonbayar_LHV_unit": "Table2 printed kJ/kg with values11.5/11.8; modeled as MJ/kg with explicit 1000x interpretation and energy consistency audit.",
+  "full_two_case_gate": "CONDITIONAL: partial source replication only",
+  "full_factory_validation": false
+}

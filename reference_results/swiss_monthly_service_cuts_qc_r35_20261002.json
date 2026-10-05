@@ -1,0 +1,537 @@
+{
+  "created_utc": "2026-10-05T06:38:20.637028+00:00",
+  "rows": 384,
+  "shape_year_units": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "monthly_raw_sha256": "fae845b7ecf2a5fd6e78ef9be453e0b99491e73a925c2b036bf1bdaa67546966",
+  "processed_sha256": "c483dbfb654537bb4534f540b39f4e2c3e6bdc1a2773f34ed1396c2daafc81ea",
+  "tightening": [
+    {
+      "year": 2020,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 65.28174140567538,
+      "phase": 38.81994269446923
+    },
+    {
+      "year": 2020,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 65.28174140567538,
+      "phase": 38.81994269446923
+    },
+    {
+      "year": 2020,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 65.28174140567538,
+      "phase": 37.365898112059874
+    },
+    {
+      "year": 2020,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 65.28174140567538,
+      "phase": 37.365898112059874
+    },
+    {
+      "year": 2020,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 65.28174140567538,
+      "phase": 40.73641821505737
+    },
+    {
+      "year": 2020,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 65.28174140567538,
+      "phase": 40.73641821505737
+    },
+    {
+      "year": 2020,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 65.28174140567538,
+      "phase": 39.244726918689715
+    },
+    {
+      "year": 2020,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 65.28174140567538,
+      "phase": 39.244726918689715
+    },
+    {
+      "year": 2021,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 57.1425980204508,
+      "phase": 34.07738505706991
+    },
+    {
+      "year": 2021,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 57.1425980204508,
+      "phase": 34.07738505706991
+    },
+    {
+      "year": 2021,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 57.1425980204508,
+      "phase": 32.8046266519266
+    },
+    {
+      "year": 2021,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 57.1425980204508,
+      "phase": 32.8046266519266
+    },
+    {
+      "year": 2021,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 57.1425980204508,
+      "phase": 36.90889982466019
+    },
+    {
+      "year": 2021,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 57.1425980204508,
+      "phase": 36.90889982466019
+    },
+    {
+      "year": 2021,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 57.1425980204508,
+      "phase": 35.636141419516285
+    },
+    {
+      "year": 2021,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 57.1425980204508,
+      "phase": 35.636141419516285
+    },
+    {
+      "year": 2022,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 51.39186213253268,
+      "phase": 30.647893784307676
+    },
+    {
+      "year": 2022,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 51.39186213253268,
+      "phase": 30.647893784307676
+    },
+    {
+      "year": 2022,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 51.39186213253268,
+      "phase": 29.503223665148273
+    },
+    {
+      "year": 2022,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 51.39186213253268,
+      "phase": 29.503223665148273
+    },
+    {
+      "year": 2022,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 51.39186213253268,
+      "phase": 33.91073819040839
+    },
+    {
+      "year": 2022,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 51.39186213253268,
+      "phase": 33.91073819040839
+    },
+    {
+      "year": 2022,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 51.39186213253268,
+      "phase": 32.75709304583639
+    },
+    {
+      "year": 2022,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 51.39186213253268,
+      "phase": 32.75709304583639
+    },
+    {
+      "year": 2023,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 66.24969152669337,
+      "phase": 39.50846349791887
+    },
+    {
+      "year": 2023,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 66.24969152669337,
+      "phase": 39.50846349791887
+    },
+    {
+      "year": 2023,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 66.24969152669337,
+      "phase": 38.032859401329254
+    },
+    {
+      "year": 2023,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 66.24969152669337,
+      "phase": 38.032859401329254
+    },
+    {
+      "year": 2023,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 66.24969152669337,
+      "phase": 42.81641361382624
+    },
+    {
+      "year": 2023,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 66.24969152669337,
+      "phase": 42.81641361382624
+    },
+    {
+      "year": 2023,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 66.24969152669337,
+      "phase": 41.186376333038694
+    },
+    {
+      "year": 2023,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 66.24969152669337,
+      "phase": 41.186376333038694
+    },
+    {
+      "year": 2024,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 64.37872405691697,
+      "phase": 38.28296128165623
+    },
+    {
+      "year": 2024,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 64.37872405691697,
+      "phase": 38.28296128165623
+    },
+    {
+      "year": 2024,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 64.37872405691697,
+      "phase": 36.849029941564105
+    },
+    {
+      "year": 2024,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 64.37872405691697,
+      "phase": 36.849029941564105
+    },
+    {
+      "year": 2024,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 64.37872405691697,
+      "phase": 39.89675838941644
+    },
+    {
+      "year": 2024,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 64.37872405691697,
+      "phase": 39.89675838941644
+    },
+    {
+      "year": 2024,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 64.37872405691697,
+      "phase": 37.157447242391626
+    },
+    {
+      "year": 2024,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 64.37872405691697,
+      "phase": 37.157447242391626
+    },
+    {
+      "year": 2025,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 65.28936511557777,
+      "phase": 38.935766175330414
+    },
+    {
+      "year": 2025,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 65.28936511557777,
+      "phase": 38.935766175330414
+    },
+    {
+      "year": 2025,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 65.28936511557777,
+      "phase": 37.481551787185474
+    },
+    {
+      "year": 2025,
+      "feed_timing_SCENARIO": "constant_annual_rate",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 65.28936511557777,
+      "phase": 37.481551787185474
+    },
+    {
+      "year": 2025,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 65.28936511557777,
+      "phase": 42.47608194379635
+    },
+    {
+      "year": 2025,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 0,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 65.28936511557777,
+      "phase": 42.47608194379635
+    },
+    {
+      "year": 2025,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 0,
+      "rectangular": 65.28936511557777,
+      "phase": 40.98416165221168
+    },
+    {
+      "year": 2025,
+      "feed_timing_SCENARIO": "observed_monthly_throughput_shape",
+      "internal_heat_SCENARIO_MW": 3.4,
+      "capture_fraction": 0,
+      "supply_SCENARIO_C": 100,
+      "volume_SCENARIO_m3": 5000,
+      "rectangular": 65.28936511557777,
+      "phase": 40.98416165221168
+    }
+  ],
+  "max_5000m3_necessary_mean_ceiling_gain_MW": 0.4638865473953544,
+  "min_storage_gain_MW": 0.0,
+  "reference_mean64_4_not_excluded_by_screen": {
+    "rectangular_inlet_grade": {
+      "constant_annual_rate": 12,
+      "observed_monthly_throughput_shape": 12
+    },
+    "condensation_cut": {
+      "constant_annual_rate": 0,
+      "observed_monthly_throughput_shape": 0
+    }
+  },
+  "ceiling_range_MW": [
+    29.503223665148273,
+    66.24969152669337
+  ],
+  "official2019": {
+    "waste_t": 244879,
+    "LHV_standard_GJ_t": 11.83,
+    "boiler_input_MWh": 804472,
+    "boiler_efficiency": 0.843,
+    "heat_exports_MWh": 450052,
+    "electric_exports_MWh": 103211,
+    "internal_heat_MWh": 4265,
+    "internal_electric_MWh": 23297,
+    "generator_MWh": 126349,
+    "imported_electric_MWh": 159
+  },
+  "official_electric_closure_MWh": 0,
+  "official2019_method": "LHV uses measured fresh-steam energy (PDFp26); boiler/input/steam validation would be circular without separate fuel calorimetry. Operating hours not supplied.",
+  "official2019_LHV_rounding_residual_MWh": 227.60277777770534,
+  "independent_case_reproduction": "Su power-only / Swiss2019 complete input states absent. No full two-case power reproduction; prior authors benchmarks remain distinct.",
+  "source_state_warning": "Nominal1.20bar/108C/5K approach: saturation-minus-approach99.7838C. Pressure1.21bar raises this to100.0234C, removing the100C upper interval. Phase exclusion is conditional, not robust to unspecified source-state rounding.",
+  "non_claims": [
+    "No observed heat demand or temperature",
+    "No full process validation",
+    "No confidence intervals from scenario counts",
+    "No physically guaranteed annual service",
+    "No capex optimum or retrospective plant-performance conclusion"
+  ],
+  "status": "Executed monthly outer-domain bounds and independent accounting closure; process input completeness gate remains open."
+}
