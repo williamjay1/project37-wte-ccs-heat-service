@@ -1,0 +1,3 @@
+# Preserve exact frozen input/output and manifest bytes on all platforms.
+# Automatic CRLF/LF conversion would invalidate audited scientific checksums.
+* -text

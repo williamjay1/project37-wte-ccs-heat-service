@@ -68,6 +68,9 @@ included. Third-party libraries are installed separately under their own license
 
 ## Reproduction and checking
 
+`.gitattributes` disables automatic line-ending conversion so frozen CSV/JSON
+and manifest bytes survive a GitHub clone on Windows and Linux unchanged.
+
 `reference_results/` contains the frozen numeric outputs, not inputs fed back into
 the model. `tools/compare_outputs.py` independently compares every numeric field
 against a fresh run, excluding only recorded timestamps and solver/wall-clock

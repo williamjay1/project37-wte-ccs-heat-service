@@ -1,6 +1,11 @@
 {
-  "created_utc": "2026-10-05T09:01:12.874934+00:00",
+  "created_utc": "2026-10-05T09:02:24.510149+00:00",
   "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "17e02a850a2c0fbae2d22c90455d0dfdce2cce39584e95f04e1f57416ed54aae",
+      "bytes": 160
+    },
     {
       "path": ".github/workflows/reproducibility.yml",
       "sha256": "e63f986f5c24496ac51ed1ae5819f9b09fd224da1fd545d4536b9e259b80c914",
@@ -173,8 +178,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "88ae4ec89c1fb486cf249864118f10af34cb9e7037b137b6e8706a9479b6dcde",
-      "bytes": 7511
+      "sha256": "c63de88982f618174816467376d373a554ae523800c64676b68d4a533cbb7f6e",
+      "bytes": 7664
     },
     {
       "path": "reference_results/exact_water_adaptation_r35_20261002.csv",
