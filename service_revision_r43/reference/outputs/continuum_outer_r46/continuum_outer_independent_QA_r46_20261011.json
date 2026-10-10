@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-10T22:09:44.866114+00:00",
+  "status": "PASS independent direct continuum property and energy witness checks",
+  "witnesses_checked": 12,
+  "numeric_fields_checked": 72,
+  "maximum_absolute_difference": 7.105427357601002e-15,
+  "brackets_checked": 12,
+  "source_curve_imported": false,
+  "allocator_called": false,
+  "hp_above_77_MW": 0.0,
+  "scalar_temperature_bounds_K": [
+    60.0,
+    77.0,
+    91.0
+  ],
+  "scope": "Algorithm/property arithmetic verification of declared-route necessary cuts; not independent factory states, whole-cycle validation, confidence interval or global continuous optimum."
+}

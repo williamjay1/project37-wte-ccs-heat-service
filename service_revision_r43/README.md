@@ -17,7 +17,7 @@ Use Python 3.12 in a virtual environment without system site packages:
 
 Run from this directory, which must initially have no results. On the
 originating Windows computer use D: for calculation; non-Windows paths are
-portable. The runner recomputes before comparing all 21 numerical products
+portable. The runner recomputes before comparing all 25 numerical products
 with reference/outputs. Reference values are not scientific calculation
 inputs. Four artwork panel CSVs are compared after plotting with exact schema,
 labels and row structure, and a 1e-12 scaled numerical tolerance (tighter than
@@ -49,6 +49,15 @@ nominal hot output; it is not a fitted part-load COP or an electricity saving.
 These common-grid capacities are distinct from endpoint-specific subdivision
 results; both numerical products remain available without relabeling them.
 The 95 percent family is proportionally calibrated, not a reproduced pilot.
+The r46 continuum point cuts additionally provide necessary physical upper
+bounds within the fixed HP route: the 77 C witness excludes the worst-profile
+99.72 percent36.5 MW contract independently of interval matching. The finite
+grid failure upper remains separate. At0.05 K, common-service inner/outer
+bounds are35.9794/35.9976 MW and36.8119/36.8221 MW for the nominal99.72 and
+calibrated95 percent families. These are certificate gaps, not confidence
+intervals or verified factory ratings. The latter's uniform thermal derating
+limit is bracketed at0.847--0.875 percent with nominal HP power retained.
+See CONTINUUM_OUTER_CUTS_R46.md for the derivation and witness scope.
 The positive finite path is conditional on the declared temperature/duty
 curves; it does not certify installed hardware, annually firm heat or one
 common heat-exchanger network across all endpoints. Generic catalogue

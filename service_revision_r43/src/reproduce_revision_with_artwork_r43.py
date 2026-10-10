@@ -1,4 +1,4 @@
-"""Recompute nine service stages, continuous certificate, independent QA and artwork.
+"""Recompute thirteen service stages, inner/outer certificates, QA and artwork.
 
 The separate preceding public pipeline retains its own runner. No access to a
 paid database, source-paper PDF, skill installation or original raw drive is
@@ -81,9 +81,14 @@ def main():
             ['src/reproduce_service_revision_r42.py'],
             ['src/certify_continuous_service_domain_r45_20261011.py'],
             ['src/verify_continuous_domain_transport_r45_20261011.py'],
+            ['src/certify_continuum_outer_cuts_r46_20261011.py',
+             '--output-dir','results/continuum_outer_r46'],
+            ['src/verify_continuum_outer_cuts_r46_20261011.py',
+             '--data-dir','results/continuum_outer_r46',
+             '--output','results/continuum_outer_r46/continuum_outer_independent_QA_r46_20261011.json'],
             ['src/compare_service_revision_outputs_r42.py','--reference-dir','reference/outputs',
              '--fresh-dir','results','--output','results/full_output_comparison.json',
-             '--include-continuous-domain']])
+             '--include-continuous-domain','--include-continuum-outer']])
     commands.extend([
         ['src/plot_service_frontier_r41_20261011.py','--data-root',str(ROOT),
          '--output-dir',str(ROOT/'results/artwork/frontier')],
@@ -119,7 +124,7 @@ def main():
                 comparisons.append(dict(file=f'{subdir}/{name}',**check,
                     scope='Schema/labels exact; 1e-12 scaled numeric tolerance; raw and newline-normalized bytes separately recorded.'))
     report=dict(created_utc=datetime.now(timezone.utc).isoformat(),
-                status='PASS artwork only' if args.artwork_only else 'PASS nine science stages plus continuous-domain certificate, independent transport verification and three artwork products',
+                status='PASS artwork only' if args.artwork_only else 'PASS thirteen science stages including continuous-domain and continuum outer certificates, independent checks and three artwork products',
                 elapsed_s=time.monotonic()-start,python=sys.version,commands=records,
                 versions={n:importlib.metadata.version(n) for n in ['numpy','scipy','matplotlib','pandas','iapws']},
                 plot_data_comparisons=comparisons,

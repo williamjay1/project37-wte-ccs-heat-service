@@ -47,7 +47,7 @@ def compare(reference_dir, fresh_dir):
         if isinstance(old, dict) and isinstance(new, dict):
             for key in sorted(set(old) | set(new)):
                 address = locator + '/' + key
-                if key == 'created_utc' or (key=='elapsed_s' and locator in ['continuous_service_domain_r45_20261011.json','continuous_domain_transport_QA_r45_20261011.json']):
+                if key == 'created_utc' or (key=='elapsed_s' and locator in ['continuous_service_domain_r45_20261011.json','continuous_domain_transport_QA_r45_20261011.json','continuum_outer_r46/continuum_outer_cut_certificate_r46_20261011.json']):
                     exclusions.append(dict(locator=address, reason='volatile timestamp or measured run duration'))
                     continue
                 if address == 'primary_margin_audit_20261011.json/manuscript_sha256':
@@ -139,12 +139,19 @@ def main():
     parser.add_argument('--fresh-dir', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--include-continuous-domain',action='store_true')
+    parser.add_argument('--include-continuum-outer',action='store_true')
     args = parser.parse_args()
     if args.include_continuous_domain:
         FILES=FILES+['continuous_service_domain_r45_20261011.json',
                      'continuous_service_capacity_r45_20261011.csv',
                      'continuous_service_allocation_r45_20261011.csv',
                      'continuous_domain_transport_QA_r45_20261011.json']
+    if args.include_continuum_outer:
+        FILES=FILES+['continuum_outer_r46/'+name for name in [
+            'continuum_outer_cut_certificate_r46_20261011.json',
+            'continuum_inner_outer_brackets_r46_20261011.csv',
+            'continuum_cut_witnesses_r46_20261011.csv',
+            'continuum_outer_independent_QA_r46_20261011.json']]
     args.output.parent.mkdir(parents=True, exist_ok=True)
     report = compare(args.reference_dir.resolve(), args.fresh_dir.resolve())
     args.output.write_text(json.dumps(report, indent=2), encoding='utf-8')
