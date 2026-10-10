@@ -34,11 +34,18 @@ python -m pip install -r requirements.txt
 python src/reproduce_revision_with_artwork_r43.py
 ```
 
-It recomputes nine numerical stages plus the continuous-domain certificate,
-checks all 21 new scientific outputs, including independent transport checks,
+It recomputes thirteen numerical stages, including continuous-domain inner
+and independent continuum outer certificates, and checks all 25 scientific
+outputs, including independent transport and point-cut checks,
 and draws three artwork products; four panel CSVs are checked after plotting.
 The script does not upload, archive, mint a DOI or certify visual inspection.
 See its README and SOURCE_NOTES for provenance and conditional evidence limits.
+The current graphical abstract shows the two-sided thermal service bounds,
+not only the older central climate/cost illustration. Its labels are read
+from fresh computed outputs. Both original drawing scripts remain available.
+The manuscript's immutable `ee987b877fd4de70ec25d37c20cdd075c03177e8`
+scientific snapshot is retained; this additive artwork update does not change
+the numerical method or imply that a new manuscript was submitted.
 The following commands reproduce the **preceding root pipeline**, separately.
 
 Use Python 3.12. Work in an extracted repository or clone, not the raw-data store.

@@ -1,6 +1,6 @@
 # Service-preserving retrofit revision (11 October 2026)
 
-This version adds nine numerical stages, a continuous-domain thermal certificate
+This version adds thirteen numerical stages, continuous-domain inner/outer certificates
 and three portable artwork products to
 the preceding pipeline at the repository root. It is not a new plant dataset,
 a full multi-impact LCA, a complete joint steam-cycle validation, a bankable
@@ -58,6 +58,17 @@ calibrated95 percent families. These are certificate gaps, not confidence
 intervals or verified factory ratings. The latter's uniform thermal derating
 limit is bracketed at0.847--0.875 percent with nominal HP power retained.
 See CONTINUUM_OUTER_CUTS_R46.md for the derivation and witness scope.
+The current graphical abstract, drawn by
+`src/draw_service_certificate_GA_r46_20261011.py`, reads the 0.05 K nominal
+construction/continuum capacity brackets and the fixed-service audit from
+fresh results. At the target's 80 x 30 mm size it displays sufficient inner
+and necessary outer bounds, not confidence intervals or measured ratings.
+The calibrated 95 percent qualification and worst-profile exclusion at
+99.72 percent are retained. Approximate displayed values are rounded; all
+decisions use unrounded values. Output includes editable SVG, embedded-font
+vector PDF/EPS and native 1200 dpi PNG. Bounding-box checks are separate from
+actual visual inspection. The old central climate/budget diagram script is
+retained as a historical illustration, not the current graphical abstract.
 The positive finite path is conditional on the declared temperature/duty
 curves; it does not certify installed hardware, annually firm heat or one
 common heat-exchanger network across all endpoints. Generic catalogue

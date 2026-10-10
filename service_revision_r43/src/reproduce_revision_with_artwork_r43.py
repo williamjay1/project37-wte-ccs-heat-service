@@ -94,7 +94,7 @@ def main():
          '--output-dir',str(ROOT/'results/artwork/frontier')],
         ['src/plot_finite_path_budget_r42_20261011.py','--data-root',str(ROOT),
          '--output-dir',str(ROOT/'results/artwork/construction')],
-        ['src/draw_graphical_abstract_r42_20261011.py','--data-root',str(ROOT),
+        ['src/draw_service_certificate_GA_r46_20261011.py','--data-root',str(ROOT),
          '--output-dir',str(ROOT/'output/graphical_abstract')]])
     logs=ROOT/'logs/r43_integrated_reproduction'
     logs.mkdir(parents=True,exist_ok=True)
