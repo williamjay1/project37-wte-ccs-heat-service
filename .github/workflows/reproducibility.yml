@@ -53,3 +53,12 @@ jobs:
       - run: python tools/check_repository.py
       - run: python src/reproduce_revision_with_artwork_r43.py
         working-directory: service_revision_r43
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: service-revision-diagnostics
+          path: |
+            service_revision_r43/logs/
+            service_revision_r43/results/full_output_comparison.json
+            service_revision_r43/results/r43_integrated_reproduction.json
+            service_revision_r43/output/graphical_abstract/graphical_abstract_audit.json

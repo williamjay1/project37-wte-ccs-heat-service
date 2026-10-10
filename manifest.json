@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-10T21:16:10.806505+00:00",
+  "created_utc": "2026-10-10T21:39:31.831195+00:00",
   "files": [
     {
       "path": ".gitattributes",
@@ -8,8 +8,8 @@
     },
     {
       "path": ".github/workflows/reproducibility.yml",
-      "bytes": 1600,
-      "sha256": "26c612c16f389de773d9ab6bd1c1a455b6538806ee6891c9f70bbb9915f1e714"
+      "bytes": 2010,
+      "sha256": "c053f3265cd4ca6c84a5913e2a740a9a3c09e8d268db685d76b0ac2cf3268252"
     },
     {
       "path": ".gitignore",
@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8709,
-      "sha256": "6840385364c96704167cc27a4a1ded9b848ff39d2419bfeca05d1b2edc087b42"
+      "bytes": 8788,
+      "sha256": "b09b097e981cb1b88043702123d3d9c98988a3858c4a44130d8725f8164ce8d1"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -443,13 +443,13 @@
     },
     {
       "path": "service_revision_r43/README.md",
-      "bytes": 2554,
-      "sha256": "4fb984d7324ae1f5974e8cceff067574eabfdfa8416c82e11280baa76795bb6f"
+      "bytes": 3373,
+      "sha256": "1ccd2a1236de8a067774f0d65632ecb8d63532e27385ad205713edf0d61e6170"
     },
     {
       "path": "service_revision_r43/SOURCE_NOTES.md",
-      "bytes": 1958,
-      "sha256": "9a76bb00311b41b64cad7cb4b154f50dc5cff463501aac577cbe3cdb3331eeb8"
+      "bytes": 2656,
+      "sha256": "31b55364ff22306c707d6aac234d89b0ce1c734a69d501a6ae226b2ab98d1fde"
     },
     {
       "path": "service_revision_r43/reference/artwork/construction/Fig3_panel_a_data.csv",
@@ -475,6 +475,26 @@
       "path": "service_revision_r43/reference/outputs/constructed_path_derating_audit_20261011.json",
       "bytes": 2647,
       "sha256": "3606083a66bbf13b128533b52d5dedef189bbd159ace13f4276e81f2edbd763d"
+    },
+    {
+      "path": "service_revision_r43/reference/outputs/continuous_domain_transport_QA_r45_20261011.json",
+      "bytes": 22077,
+      "sha256": "ec5b8850c4abbe026d40790ced5589c5022d36db663cbaf87a8f520363a160b4"
+    },
+    {
+      "path": "service_revision_r43/reference/outputs/continuous_service_allocation_r45_20261011.csv",
+      "bytes": 608381,
+      "sha256": "6f62c12990158f6d9adfb0158870deda895629e6660011b3d5bdf726763d2c64"
+    },
+    {
+      "path": "service_revision_r43/reference/outputs/continuous_service_capacity_r45_20261011.csv",
+      "bytes": 3469,
+      "sha256": "93ec06dd04731c28a7fad22bdf47017d87def6a92ba5514466aa7702578e0e7b"
+    },
+    {
+      "path": "service_revision_r43/reference/outputs/continuous_service_domain_r45_20261011.json",
+      "bytes": 12828,
+      "sha256": "3a77566ea113fa22c3b7fbffb2d1f13a0f35a816d602580314a497e12640491b"
     },
     {
       "path": "service_revision_r43/reference/outputs/finite_capacity_cut_QA_20261011.json",
@@ -587,9 +607,14 @@
       "sha256": "2c90c859ae5156f0dda687e09a7e6f70108e8ffb11efb4940cd3dd30ae93f968"
     },
     {
+      "path": "service_revision_r43/src/certify_continuous_service_domain_r45_20261011.py",
+      "bytes": 10736,
+      "sha256": "f883ecc6abe2acfdcbd5f512050516eb940b1f3706cb4f2d083af3347e19cba8"
+    },
+    {
       "path": "service_revision_r43/src/compare_service_revision_outputs_r42.py",
-      "bytes": 8196,
-      "sha256": "629ae52ec13c754fff4886169fa6753c07d9a06fe37bfa12651e6b66643b4b2d"
+      "bytes": 8767,
+      "sha256": "931f62c68385b4c6009a828259b1ad3928fe2b2a5d9ef036725a5dfb42ea60f5"
     },
     {
       "path": "service_revision_r43/src/construct_finite_heat_path_20261011.py",
@@ -598,8 +623,8 @@
     },
     {
       "path": "service_revision_r43/src/draw_graphical_abstract_r42_20261011.py",
-      "bytes": 8038,
-      "sha256": "050024853e6f21eb67511e8ca4bb904ce9882f11872f9bd48d08ffb348ab79a3"
+      "bytes": 8420,
+      "sha256": "f949507089d4c7e6d166ab9cc86fe959aace1fcc12b5f3828c9eb3aa6c8fd456"
     },
     {
       "path": "service_revision_r43/src/figure_style_r39/nature.mplstyle",
@@ -643,13 +668,18 @@
     },
     {
       "path": "service_revision_r43/src/reproduce_revision_with_artwork_r43.py",
-      "bytes": 4457,
-      "sha256": "174c9fe4506c3c535f2786952911743498f8d1b01613534a28069f19010b9b3e"
+      "bytes": 4799,
+      "sha256": "c6b8658c443a93c2a2a0ea5022e38534212f977de92406d4d3c3d72681ea0d9e"
     },
     {
       "path": "service_revision_r43/src/reproduce_service_revision_r42.py",
       "bytes": 4161,
       "sha256": "124d15a22b4c4b4f32dcb0bd46d0311f379f2acb1ed22d9d2d180c185637c98f"
+    },
+    {
+      "path": "service_revision_r43/src/verify_continuous_domain_transport_r45_20261011.py",
+      "bytes": 6066,
+      "sha256": "adb552bba6249924becd6d422680ec8d9d5220de9ca6d142db063e1833ff3468"
     },
     {
       "path": "service_revision_r43/src/verify_finite_capacity_cuts_20261011.py",

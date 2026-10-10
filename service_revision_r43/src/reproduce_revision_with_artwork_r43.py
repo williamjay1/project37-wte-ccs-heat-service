@@ -1,4 +1,4 @@
-"""Recompute the nine-stage service revision and three portable artwork products.
+"""Recompute nine service stages, continuous certificate, independent QA and artwork.
 
 The separate preceding public pipeline retains its own runner. No access to a
 paid database, source-paper PDF, skill installation or original raw drive is
@@ -33,8 +33,11 @@ def main():
     if not args.artwork_only:
         commands.extend([
             ['src/reproduce_service_revision_r42.py'],
+            ['src/certify_continuous_service_domain_r45_20261011.py'],
+            ['src/verify_continuous_domain_transport_r45_20261011.py'],
             ['src/compare_service_revision_outputs_r42.py','--reference-dir','reference/outputs',
-             '--fresh-dir','results','--output','results/full_output_comparison.json']])
+             '--fresh-dir','results','--output','results/full_output_comparison.json',
+             '--include-continuous-domain']])
     commands.extend([
         ['src/plot_service_frontier_r41_20261011.py','--data-root',str(ROOT),
          '--output-dir',str(ROOT/'results/artwork/frontier')],
@@ -55,6 +58,7 @@ def main():
         records.append(dict(command=cmd,returncode=completed.returncode,elapsed_s=time.monotonic()-begin))
         print(f'{index}/{len(commands)} {cmd[0]}: exit {completed.returncode}',flush=True)
         if completed.returncode:
+            print((completed.stdout+'\n'+completed.stderr)[-12000:], flush=True)
             raise SystemExit(f'Failed stage; inspect {log}. No reproduction pass declared.')
     refs=ROOT/'reference/artwork'
     comparisons=[]
@@ -67,7 +71,7 @@ def main():
                 assert a.read_bytes()==b.read_bytes(), f'Different source-bound plot data: {name}'
                 comparisons.append(dict(file=f'{subdir}/{name}',byte_identical=True))
     report=dict(created_utc=datetime.now(timezone.utc).isoformat(),
-                status='PASS artwork only' if args.artwork_only else 'PASS nine science stages plus three artwork products',
+                status='PASS artwork only' if args.artwork_only else 'PASS nine science stages plus continuous-domain certificate, independent transport verification and three artwork products',
                 elapsed_s=time.monotonic()-start,python=sys.version,commands=records,
                 versions={n:importlib.metadata.version(n) for n in ['numpy','scipy','matplotlib','pandas','iapws']},
                 plot_data_comparisons=comparisons,

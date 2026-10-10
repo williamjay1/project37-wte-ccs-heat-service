@@ -34,7 +34,8 @@ python -m pip install -r requirements.txt
 python src/reproduce_revision_with_artwork_r43.py
 ```
 
-It recomputes nine numerical stages, checks all 17 new scientific outputs,
+It recomputes nine numerical stages plus the continuous-domain certificate,
+checks all 21 new scientific outputs, including independent transport checks,
 and draws three artwork products; four panel CSVs are checked after plotting.
 The script does not upload, archive, mint a DOI or certify visual inspection.
 See its README and SOURCE_NOTES for provenance and conditional evidence limits.

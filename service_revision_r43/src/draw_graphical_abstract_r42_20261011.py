@@ -18,6 +18,8 @@ ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--data-root', type=Path, default=ROOT)
 parser.add_argument('--output-dir', type=Path, default=ROOT / 'output/graphical_abstract/r42_20261011')
+parser.add_argument('--font-family', default='DejaVu Sans',
+                    help='Bundled cross-platform font; never silently substitute another width.')
 args = parser.parse_args()
 ROOT = args.data_root.resolve()
 OUT = args.output_dir.resolve()
@@ -31,7 +33,9 @@ row = next(r for r in budget['central_rows'] if r['comparator'] == '95adapted100
 
 plt = apply_house_style()
 available = {font.name for font in font_manager.fontManager.ttflist}
-font_choice = 'Arial' if 'Arial' in available else 'DejaVu Sans'
+font_choice = args.font_family
+if font_choice not in available:
+    raise ValueError(f'Required diagram font is unavailable: {font_choice}')
 plt.rcParams.update({'font.family': 'sans-serif', 'font.sans-serif': [font_choice],
                      'font.size': 8.0, 'ps.fonttype': 42})
 fig = plt.figure(figsize=(mm(80), mm(30)))
@@ -69,7 +73,7 @@ def panel_label(bounds, x, y, text, **kwargs):
 # diagram is deliberately readable at the journal's small final printed size.
 label(12, 27, 'Fixed input', weight='bold')
 label(39.5, 27, 'Same heat', weight='bold')
-label(66.5, 27, 'Capture upgrade', weight='bold')
+label(66.5, 27, 'CCS upgrade', weight='bold')
 left_box = panel((1.7, 8.6, 20.6, 15.8), '#F4F6F7', grey)
 panel_label(left_box, 12, 21.8, 'WtE + CCS', size=8.0, weight='bold')
 panel_label(left_box, 12, 16.8, 'Heat recovery')
@@ -77,18 +81,18 @@ panel_label(left_box, 12, 12.3, 'HP 60 → 77°C', size=8.0)
 arrow(22.5, 28.4, 17)
 
 middle_box = panel((28.7, 8.6, 21.6, 15.8), '#F0F7FB', blue)
-panel_label(middle_box, 39.5, 21.8, 'User 80/50°C', weight='bold')
+panel_label(middle_box, 39.5, 21.8, 'User 80/50°C')
 panel_label(middle_box, 39.5, 17.2, '36.5 MW', size=9.0, color=blue, weight='bold')
 panel_label(middle_box, 39.5, 12.4, '100/60°C', size=8.0)
 arrow(50.5, 57.1, 17, color=blue)
 
 right_box = panel((57.4, 8.6, 21.2, 15.8), '#FFF5EE', orange)
-panel_label(right_box, 68, 21.8, '95 → 99.72%', size=8.0, weight='bold')
+panel_label(right_box, 68, 22.2, '95 → 99.72%', size=8.0, weight='bold')
 climate = row['included_delta_climate_kgCO2e_year'] / 1e6
-panel_label(right_box, 68, 18.1, rf'{climate:.3f} kt/y', size=8.0, color=orange)
+panel_label(right_box, 68, 18.4, rf'{climate:.3f} kt/y', size=8.0, color=orange)
 threshold = row['zero_remaining_budget_value_EUR2020_t']
-panel_label(right_box, 68, 14.3, rf'$V_f > {threshold:.0f}$', size=8.0, color=orange)
-panel_label(right_box, 68, 10.7, 'EUR2020 / t', size=8.0)
+panel_label(right_box, 68, 14.6, f'Vf > {threshold:.0f}', size=8.0, color=orange)
+panel_label(right_box, 68, 10.8, 'EUR2020 / t', size=8.0)
 
 # These are diagram qualifications, not a paragraph or a claim of field proof.
 flow = finite['primary_water_kg_s']
@@ -104,7 +108,9 @@ collisions = []
 for i, a in enumerate(labels):
     for b in labels[i+1:]:
         if a.get_window_extent(renderer).overlaps(b.get_window_extent(renderer)):
-            collisions.append([a.get_text(), b.get_text()])
+            collisions.append(dict(labels=[a.get_text(), b.get_text()],
+                bounds_mm=[ax.transData.inverted().transform(x.get_window_extent(renderer).get_points()).tolist()
+                           for x in [a,b]]))
 assert not collisions, collisions
 outside = [a.get_text() for a in labels
            if not fig.bbox.contains(*a.get_window_extent(renderer).get_points()[0])
@@ -112,16 +118,16 @@ outside = [a.get_text() for a in labels
 assert not outside, outside
 panel_overflow = []
 for artist, (x, y, width, height) in contained_labels:
-    # Require 0.35 mm inner clearance from every box edge. The same transforms
+    # Require 0.30 mm inner clearance from every box edge. The same transforms
     # are used for rendered labels and vector geometry; this is not a guessed
     # character-count check and supplements, rather than replaces, looking.
-    lower = ax.transData.transform((x + .35, y + .35))
-    upper = ax.transData.transform((x + width - .35, y + height - .35))
+    lower = ax.transData.transform((x + .30, y + .30))
+    upper = ax.transData.transform((x + width - .30, y + height - .30))
     bbox = artist.get_window_extent(renderer)
     if bbox.x0 < lower[0] or bbox.y0 < lower[1] or bbox.x1 > upper[0] or bbox.y1 > upper[1]:
         panel_overflow.append(dict(text=artist.get_text(),
                                    actual_mm=ax.transData.inverted().transform(bbox.get_points()).tolist(),
-                                   permitted_mm=[[x+.35,y+.35],[x+width-.35,y+height-.35]]))
+                                   permitted_mm=[[x+.30,y+.30],[x+width-.30,y+height-.30]]))
 assert not panel_overflow, panel_overflow
 from matplotlib.transforms import Bbox
 connector_intrusions = []

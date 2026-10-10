@@ -1,6 +1,7 @@
 # Service-preserving retrofit revision (11 October 2026)
 
-This version adds nine numerical stages and three portable artwork products to
+This version adds nine numerical stages, a continuous-domain thermal certificate
+and three portable artwork products to
 the preceding pipeline at the repository root. It is not a new plant dataset,
 a full multi-impact LCA, a complete joint steam-cycle validation, a bankable
 TEA, a journal acceptance, or a new Zenodo deposit. The preceding v1.0.0 DOI
@@ -16,7 +17,7 @@ Use Python 3.12 in a virtual environment without system site packages:
 
 Run from this directory, which must initially have no results. On the
 originating Windows computer use D: for calculation; non-Windows paths are
-portable. The runner recomputes before comparing all 17 numerical products
+portable. The runner recomputes before comparing all 21 numerical products
 with reference/outputs. Reference values are not scientific calculation
 inputs. Four artwork panel CSVs are compared byte-for-byte after plotting.
 No source PDF, paid database, skill installation, raw drive or account is
@@ -33,6 +34,16 @@ declared service, missing-state and uncertainty scenarios. Reference outputs
 are deterministic model products, not empirical sampling observations.
 Retain method-failed paths, negative budgets and endpoint derating failures.
 Grid fractions are not confidence intervals or estimated probabilities.
+The continuous-domain certificate proves source-curve dominance within the
+declared rectangular domain and uses one common conservative temperature
+grid. It permits adaptive allocations, not one installed exchanger network.
+The 512 interior checks are falsification diagnostics, not the coverage proof.
+An independent 64-case transportation LP checks finite-cut sufficiency; all
+12 lower/upper capacity brackets are separately checked without the allocator.
+Useful-heat derating retains nominal heat-pump electricity and rejects unused
+nominal hot output; it is not a fitted part-load COP or an electricity saving.
+These common-grid capacities are distinct from endpoint-specific subdivision
+results; both numerical products remain available without relabeling them.
 The 95 percent family is proportionally calibrated, not a reproduced pilot.
 The positive finite path is conditional on the declared temperature/duty
 curves; it does not certify installed hardware, annually firm heat or one

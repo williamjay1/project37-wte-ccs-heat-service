@@ -11,3 +11,13 @@
 The preceding root dataset records retain their original sources/rights.
 This increment's frozen numerical references are generated model outputs.
 No confidential, requested-only or paid raw dataset is a required input.
+
+The r45 continuous-domain certificate uses these same budgets and analyst
+parameter limits, not a new empirical dataset. Its monotonic cumulative-heat
+proof covers the declared continuous rectangular set at100/60 primary heat.
+Different adaptive allocations can be needed. It neither measures the
+probability of that set nor verifies one installed HEN or annual firm service.
+The first local diagnostic's mislabeled steam-return derivative was corrected
+before freezing these references; the actual minimizing return and numerical
+curves were unchanged. Both steam inlet and return derivatives are nonnegative
+in their unclipped active portions. Recalculate before comparing references.

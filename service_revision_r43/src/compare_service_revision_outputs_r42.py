@@ -47,8 +47,8 @@ def compare(reference_dir, fresh_dir):
         if isinstance(old, dict) and isinstance(new, dict):
             for key in sorted(set(old) | set(new)):
                 address = locator + '/' + key
-                if key == 'created_utc':
-                    exclusions.append(dict(locator=address, reason='volatile creation timestamp'))
+                if key == 'created_utc' or (key=='elapsed_s' and locator in ['continuous_service_domain_r45_20261011.json','continuous_domain_transport_QA_r45_20261011.json']):
+                    exclusions.append(dict(locator=address, reason='volatile timestamp or measured run duration'))
                     continue
                 if address == 'primary_margin_audit_20261011.json/manuscript_sha256':
                     exclusions.append(dict(locator=address, reference=old.get(key), fresh=new.get(key),
@@ -129,15 +129,22 @@ def compare(reference_dir, fresh_dir):
         reference_dir=str(reference_dir), fresh_dir=str(fresh_dir), compared_files=compared,
         **counts, difference_examples=examples, exclusions=exclusions,
         tolerance='absolute difference / max(1, abs(reference), abs(fresh)) <= 1e-10',
-        scope='Computational agreement of all 17 new scientific outputs; not empirical process validation.')
+        scope=f'Computational agreement of all {len(FILES)} scientific outputs; not empirical process validation.')
 
 
 def main():
+    global FILES
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--reference-dir', type=Path, required=True)
     parser.add_argument('--fresh-dir', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--include-continuous-domain',action='store_true')
     args = parser.parse_args()
+    if args.include_continuous_domain:
+        FILES=FILES+['continuous_service_domain_r45_20261011.json',
+                     'continuous_service_capacity_r45_20261011.csv',
+                     'continuous_service_allocation_r45_20261011.csv',
+                     'continuous_domain_transport_QA_r45_20261011.json']
     args.output.parent.mkdir(parents=True, exist_ok=True)
     report = compare(args.reference_dir.resolve(), args.fresh_dir.resolve())
     args.output.write_text(json.dumps(report, indent=2), encoding='utf-8')

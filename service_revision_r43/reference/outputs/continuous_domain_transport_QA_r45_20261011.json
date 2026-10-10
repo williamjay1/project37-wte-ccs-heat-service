@@ -1,0 +1,784 @@
+{
+  "created_utc": "2026-10-10T21:36:17.420792+00:00",
+  "status": "PASS independent transport LP and every fine-grid bracket",
+  "elapsed_s": 2.313000000000102,
+  "coarse_lp_cases": 64,
+  "coarse_lp_feasible": 37,
+  "coarse_lp_infeasible": 27,
+  "max_lp_equality_residual_MW": 2.220446049250313e-16,
+  "fine_brackets_checked": 24,
+  "max_stored_cut_difference_MW": 4.618527782440651e-14,
+  "lp_cases": [
+    {
+      "case": 0,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 31.445694674078375,
+      "cut_violation_MW": -4.589880929613436,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 1,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 30.908913568581845,
+      "cut_violation_MW": -6.741265950223191,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 2,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 32.021959952852136,
+      "cut_violation_MW": -3.1206767381220644,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 3,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 26.039257942516688,
+      "cut_violation_MW": -8.244994196241526,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 4,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 29.030404229003743,
+      "cut_violation_MW": -5.1802025273964105,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 5,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 34.45266527049551,
+      "cut_violation_MW": -2.463583606140446,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 6,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 38.50245174635666,
+      "cut_violation_MW": 3.462888333849218,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 7,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 41.060001572427666,
+      "cut_violation_MW": 6.037451970031412,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 8,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 26.05831916932856,
+      "cut_violation_MW": -6.934851956463014,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 9,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 25.580385976081605,
+      "cut_violation_MW": -9.630569067593287,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 10,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 25.556895543397793,
+      "cut_violation_MW": -6.566186606987218,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 11,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 28.732504266038923,
+      "cut_violation_MW": -6.560962567175768,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 12,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 37.03193932980113,
+      "cut_violation_MW": 0.7611585225425692,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 13,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 34.05089630069073,
+      "cut_violation_MW": -2.8601366971200157,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 14,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 32.95969544962852,
+      "cut_violation_MW": -1.8756681296129933,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 15,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 26.02901604472859,
+      "cut_violation_MW": -8.338321694739818,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 16,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 34.924686970916405,
+      "cut_violation_MW": -1.9631558114097984,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 17,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 27.175873693324352,
+      "cut_violation_MW": -9.592544786670189,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 18,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 33.813326226641465,
+      "cut_violation_MW": -0.8642290752111634,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 19,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 41.127291962399894,
+      "cut_violation_MW": 5.427403628698222,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 20,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 35.0040489496152,
+      "cut_violation_MW": -1.4137042752165385,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 21,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 37.190955131991636,
+      "cut_violation_MW": 0.1895954674379965,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 22,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 34.26357393958399,
+      "cut_violation_MW": -0.14044062354491516,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 23,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 31.848344006046936,
+      "cut_violation_MW": -3.2711338162962953,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 24,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 37.13841026516507,
+      "cut_violation_MW": -0.028450009703494317,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 25,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 35.46592355792269,
+      "cut_violation_MW": -1.5744971377555714,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 26,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 41.091065617135826,
+      "cut_violation_MW": 6.66776571057115,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 27,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 41.70063053950758,
+      "cut_violation_MW": 6.356413205160486,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 28,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 26.953431048819326,
+      "cut_violation_MW": -7.387353025191436,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 29,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 29.188353475315086,
+      "cut_violation_MW": -8.206786114584169,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 30,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 37.82920009399196,
+      "cut_violation_MW": 2.9872117612869147,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 31,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 32.49666270433971,
+      "cut_violation_MW": -2.9238397605724735,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 32,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 36.806379843934714,
+      "cut_violation_MW": -0.13221541612762877,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 33,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 38.45630201715038,
+      "cut_violation_MW": 0.9578491495279593,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 34,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 35.851057342553474,
+      "cut_violation_MW": 0.5652792346201068,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 35,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 33.90899162255683,
+      "cut_violation_MW": -1.7151354784883317,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 36,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 36.540486702513746,
+      "cut_violation_MW": 0.013855582565597047,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 37,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 39.39163786835343,
+      "cut_violation_MW": 2.425993939447686,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 38,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 33.19112429821813,
+      "cut_violation_MW": -1.5913333796456044,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 39,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 41.066154457847105,
+      "cut_violation_MW": 5.750219519781258,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 40,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 41.6910463189493,
+      "cut_violation_MW": 5.4184663195553995,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 41,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 40.58259256079057,
+      "cut_violation_MW": 2.9359415704622087,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 42,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 41.05225219182828,
+      "cut_violation_MW": 5.719818150026331,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 43,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 29.296059583304395,
+      "cut_violation_MW": -6.635035004722358,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 44,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 37.966328037123,
+      "cut_violation_MW": 1.0088455350707832,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 45,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 35.526233477829976,
+      "cut_violation_MW": -2.051570849349659,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 46,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 36.188317714236874,
+      "cut_violation_MW": 1.2545306241701937,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 47,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 33.62795316162322,
+      "cut_violation_MW": -1.6749442054772103,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 48,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 41.30960089620463,
+      "cut_violation_MW": 5.106856230936497,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 49,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 39.63554277051452,
+      "cut_violation_MW": 1.8715559819051037,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 50,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 28.437489852170653,
+      "cut_violation_MW": -6.886712613046473,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 51,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 38.111514532335306,
+      "cut_violation_MW": 2.3736107849817536,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 52,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 29.421748663994542,
+      "cut_violation_MW": -5.515641132232773,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 53,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 39.289722897677244,
+      "cut_violation_MW": 2.1845947394552425,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 54,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 30.899995538708758,
+      "cut_violation_MW": -3.8268705089731974,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 55,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 38.25487935798691,
+      "cut_violation_MW": 2.5531562567620725,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 56,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 28.42157096053932,
+      "cut_violation_MW": -5.510192246295592,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 57,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 38.19357049475526,
+      "cut_violation_MW": 0.5915233654115468,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 58,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 35.897698276058804,
+      "cut_violation_MW": 1.3892776099908772,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 59,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 34.880599329875444,
+      "cut_violation_MW": -0.13088385649014356,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 60,
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 27.147023326738406,
+      "cut_violation_MW": -8.541054434041847,
+      "lp_feasible": true,
+      "lp_residual_MW": 0.0
+    },
+    {
+      "case": 61,
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "tested_duty_MW": 34.71854650705722,
+      "cut_violation_MW": -3.051076135893396,
+      "lp_feasible": true,
+      "lp_residual_MW": 2.220446049250313e-16
+    },
+    {
+      "case": 62,
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 35.63698688011958,
+      "cut_violation_MW": 0.26001979229031136,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    },
+    {
+      "case": 63,
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "tested_duty_MW": 35.80481494701387,
+      "cut_violation_MW": 0.2976136486042691,
+      "lp_feasible": false,
+      "lp_residual_MW": null
+    }
+  ],
+  "fine_bracket_checks": [
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "step_K": 0.2,
+      "bracket": "lower",
+      "violation_MW": -0.0001577912396975023,
+      "stored_cut_residual_MW": 3.552713678800501e-15
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "step_K": 0.2,
+      "bracket": "upper",
+      "violation_MW": 0.0002113239025938185,
+      "stored_cut_residual_MW": 1.0658141036401503e-14
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "step_K": 0.1,
+      "bracket": "lower",
+      "violation_MW": -0.0003249499327466765,
+      "stored_cut_residual_MW": 2.4868995751603507e-14
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "step_K": 0.1,
+      "bracket": "upper",
+      "violation_MW": 4.4165209565960595e-05,
+      "stored_cut_residual_MW": 1.4210854715202004e-14
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "step_K": 0.05,
+      "bracket": "lower",
+      "violation_MW": -0.0002239422507059885,
+      "stored_cut_residual_MW": 1.0658141036401503e-14
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 1.0,
+      "step_K": 0.05,
+      "bracket": "upper",
+      "violation_MW": 0.00014517289157467417,
+      "stored_cut_residual_MW": 3.552713678800501e-15
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "step_K": 0.2,
+      "bracket": "lower",
+      "violation_MW": -0.00028659149359810954,
+      "stored_cut_residual_MW": 3.552713678800501e-15
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "step_K": 0.2,
+      "bracket": "upper",
+      "violation_MW": 0.0003542776470411013,
+      "stored_cut_residual_MW": 7.105427357601002e-15
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "step_K": 0.1,
+      "bracket": "lower",
+      "violation_MW": -0.0004212678598527475,
+      "stored_cut_residual_MW": 0.0
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "step_K": 0.1,
+      "bracket": "upper",
+      "violation_MW": 0.0002196012807758052,
+      "stored_cut_residual_MW": 7.105427357601002e-15
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "step_K": 0.05,
+      "bracket": "lower",
+      "violation_MW": -0.00016815103455058988,
+      "stored_cut_residual_MW": 4.618527782440651e-14
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 1.0,
+      "step_K": 0.05,
+      "bracket": "upper",
+      "violation_MW": 0.00047271810603177755,
+      "stored_cut_residual_MW": 4.618527782440651e-14
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "step_K": 0.2,
+      "bracket": "lower",
+      "violation_MW": -0.00017538819945173145,
+      "stored_cut_residual_MW": 1.0658141036401503e-14
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "step_K": 0.2,
+      "bracket": "upper",
+      "violation_MW": 0.0001937269428538002,
+      "stored_cut_residual_MW": 3.552713678800501e-15
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "step_K": 0.1,
+      "bracket": "lower",
+      "violation_MW": -5.735260110029117e-05,
+      "stored_cut_residual_MW": 7.105427357601002e-15
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "step_K": 0.1,
+      "bracket": "upper",
+      "violation_MW": 0.00031176254119458235,
+      "stored_cut_residual_MW": 3.552713678800501e-15
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "step_K": 0.05,
+      "bracket": "lower",
+      "violation_MW": -0.00018286438855596998,
+      "stored_cut_residual_MW": 3.552713678800501e-15
+    },
+    {
+      "capture_percent": "99.72",
+      "retained_duty": 0.95,
+      "step_K": 0.05,
+      "bracket": "upper",
+      "violation_MW": 0.00018625075373890354,
+      "stored_cut_residual_MW": 7.105427357601002e-15
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "step_K": 0.2,
+      "bracket": "lower",
+      "violation_MW": -0.00047672969234113793,
+      "stored_cut_residual_MW": 2.1316282072803006e-14
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "step_K": 0.2,
+      "bracket": "upper",
+      "violation_MW": 0.00016413944828741478,
+      "stored_cut_residual_MW": 7.105427357601002e-15
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "step_K": 0.1,
+      "bracket": "lower",
+      "violation_MW": -0.0002521942129227739,
+      "stored_cut_residual_MW": 1.7763568394002505e-14
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "step_K": 0.1,
+      "bracket": "upper",
+      "violation_MW": 0.00038867492768090983,
+      "stored_cut_residual_MW": 3.552713678800501e-15
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "step_K": 0.05,
+      "bracket": "lower",
+      "violation_MW": -0.00013990705709332474,
+      "stored_cut_residual_MW": 3.907985046680551e-14
+    },
+    {
+      "capture_percent": "95",
+      "retained_duty": 0.95,
+      "step_K": 0.05,
+      "bracket": "upper",
+      "violation_MW": 0.0005009620836133877,
+      "stored_cut_residual_MW": 2.1316282072803006e-14
+    }
+  ],
+  "scope": "Independent of greedy allocator; shared property/curve inputs. Not process validation, continuous-coverage proof by sampling, installed HEN or confidence interval."
+}
