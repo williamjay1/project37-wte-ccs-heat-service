@@ -18,6 +18,13 @@ import time
 ROOT=Path(__file__).resolve().parents[1]
 
 
+def compare_csv_payload(fresh, reference):
+    """Allow CRLF/LF serialization only, not a number, label or whitespace edit."""
+    return dict(raw_byte_identical=fresh == reference,
+                payload_identical_after_crlf_normalization=
+                    fresh.replace(b'\r\n', b'\n') == reference.replace(b'\r\n', b'\n'))
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--artwork-only',action='store_true',
@@ -68,8 +75,10 @@ def main():
             a=ROOT/'results/artwork'/subdir/name
             b=refs/subdir/name
             if b.exists():
-                assert a.read_bytes()==b.read_bytes(), f'Different source-bound plot data: {name}'
-                comparisons.append(dict(file=f'{subdir}/{name}',byte_identical=True))
+                check=compare_csv_payload(a.read_bytes(),b.read_bytes())
+                assert check['payload_identical_after_crlf_normalization'], f'Different source-bound plot data: {name}'
+                comparisons.append(dict(file=f'{subdir}/{name}',**check,
+                    scope='Only CRLF/LF line serialization is normalized; all numbers and labels are byte exact.'))
     report=dict(created_utc=datetime.now(timezone.utc).isoformat(),
                 status='PASS artwork only' if args.artwork_only else 'PASS nine science stages plus continuous-domain certificate, independent transport verification and three artwork products',
                 elapsed_s=time.monotonic()-start,python=sys.version,commands=records,

@@ -19,7 +19,9 @@ Run from this directory, which must initially have no results. On the
 originating Windows computer use D: for calculation; non-Windows paths are
 portable. The runner recomputes before comparing all 21 numerical products
 with reference/outputs. Reference values are not scientific calculation
-inputs. Four artwork panel CSVs are compared byte-for-byte after plotting.
+inputs. Four artwork panel CSV payloads are compared byte-for-byte after plotting,
+normalizing CRLF/LF line endings only. Numeric, label and other whitespace
+differences still fail; the raw-byte comparison is also recorded.
 No source PDF, paid database, skill installation, raw drive or account is
 needed. Logs and new numerical outputs remain untracked.
 

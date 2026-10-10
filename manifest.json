@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-10T21:39:31.831195+00:00",
+  "created_utc": "2026-10-10T21:43:38.270397+00:00",
   "files": [
     {
       "path": ".gitattributes",
@@ -8,8 +8,8 @@
     },
     {
       "path": ".github/workflows/reproducibility.yml",
-      "bytes": 2010,
-      "sha256": "c053f3265cd4ca6c84a5913e2a740a9a3c09e8d268db685d76b0ac2cf3268252"
+      "bytes": 2185,
+      "sha256": "0d9c9c1f8a8e193bddc2a685f4207c6a0635a3c348e5e81dba07a05b72e59308"
     },
     {
       "path": ".gitignore",
@@ -443,8 +443,8 @@
     },
     {
       "path": "service_revision_r43/README.md",
-      "bytes": 3373,
-      "sha256": "1ccd2a1236de8a067774f0d65632ecb8d63532e27385ad205713edf0d61e6170"
+      "bytes": 3524,
+      "sha256": "6ad843fa6c8b7804c4727f2817fa1e69e49ef49df1c00065a02826517292a21a"
     },
     {
       "path": "service_revision_r43/SOURCE_NOTES.md",
@@ -668,8 +668,8 @@
     },
     {
       "path": "service_revision_r43/src/reproduce_revision_with_artwork_r43.py",
-      "bytes": 4799,
-      "sha256": "c6b8658c443a93c2a2a0ea5022e38534212f977de92406d4d3c3d72681ea0d9e"
+      "bytes": 5328,
+      "sha256": "76b9fd621e1fdcf5982f6c2b52f61d11bcd051ef7c671127e8a00327cf460ced"
     },
     {
       "path": "service_revision_r43/src/reproduce_service_revision_r42.py",
@@ -690,6 +690,11 @@
       "path": "service_revision_r43/src/verify_finite_heat_path_20261011.py",
       "bytes": 4038,
       "sha256": "76d2b57d4b7143f934af0d8b015c51c8ba9deb4f640a48c1099558ff569c751c"
+    },
+    {
+      "path": "service_revision_r43/tests/test_plot_payload.py",
+      "bytes": 1122,
+      "sha256": "7fd4819392e0e3fbf41b80f4dee6d7c65c6bf114d2912aa8d6c2a59593a7dbe0"
     },
     {
       "path": "src/audit_nature_artwork_r39_20261005.py",
