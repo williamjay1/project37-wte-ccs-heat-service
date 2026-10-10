@@ -8,9 +8,12 @@ as scientific results. Use a fresh D: checkout on the author's Windows host.
 from pathlib import Path
 from datetime import datetime, timezone
 import argparse
+import csv
 import hashlib
+import io
 import importlib.metadata
 import json
+import math
 import subprocess
 import sys
 import time
@@ -19,10 +22,46 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def compare_csv_payload(fresh, reference):
-    """Allow CRLF/LF serialization only, not a number, label or whitespace edit."""
+    """Strict schema/labels, 1e-12 scaled numeric tolerance and recorded bytes.
+
+    Floating results from different libm implementations can differ by a few
+    ulps. The panel-data tolerance is tighter than the scientific-output test;
+    it is not a permission to round or overwrite the input/reference values.
+    """
+    a = list(csv.reader(io.StringIO(fresh.decode('utf-8'))))
+    b = list(csv.reader(io.StringIO(reference.decode('utf-8'))))
+    matched = len(a) == len(b) and bool(a) and a[0] == b[0]
+    maximum = 0.0
+    unequal_cells = 0
+    if matched:
+        for row_a, row_b in zip(a[1:], b[1:]):
+            if len(row_a) != len(row_b):
+                matched = False
+                break
+            for x, y in zip(row_a, row_b):
+                if x == y:
+                    continue
+                unequal_cells += 1
+                if x != x.strip() or y != y.strip():
+                    matched = False
+                    continue
+                try:
+                    n, m = float(x), float(y)
+                except ValueError:
+                    matched = False
+                    continue
+                if not math.isfinite(n) or not math.isfinite(m):
+                    matched = False
+                    continue
+                error = abs(n-m)/max(1.0, abs(n), abs(m))
+                maximum = max(maximum, error)
+                if error > 1e-12:
+                    matched = False
     return dict(raw_byte_identical=fresh == reference,
                 payload_identical_after_crlf_normalization=
-                    fresh.replace(b'\r\n', b'\n') == reference.replace(b'\r\n', b'\n'))
+                    fresh.replace(b'\r\n', b'\n') == reference.replace(b'\r\n', b'\n'),
+                source_values_match=matched, unequal_serialized_cells=unequal_cells,
+                maximum_scaled_numeric_error=maximum, numerical_tolerance=1e-12)
 
 
 def main():
@@ -76,9 +115,9 @@ def main():
             b=refs/subdir/name
             if b.exists():
                 check=compare_csv_payload(a.read_bytes(),b.read_bytes())
-                assert check['payload_identical_after_crlf_normalization'], f'Different source-bound plot data: {name}'
+                assert check['source_values_match'], f'Different source-bound plot data: {name}'
                 comparisons.append(dict(file=f'{subdir}/{name}',**check,
-                    scope='Only CRLF/LF line serialization is normalized; all numbers and labels are byte exact.'))
+                    scope='Schema/labels exact; 1e-12 scaled numeric tolerance; raw and newline-normalized bytes separately recorded.'))
     report=dict(created_utc=datetime.now(timezone.utc).isoformat(),
                 status='PASS artwork only' if args.artwork_only else 'PASS nine science stages plus continuous-domain certificate, independent transport verification and three artwork products',
                 elapsed_s=time.monotonic()-start,python=sys.version,commands=records,
