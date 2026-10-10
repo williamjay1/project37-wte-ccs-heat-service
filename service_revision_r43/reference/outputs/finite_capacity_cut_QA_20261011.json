@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-10T19:26:08.159642+00:00",
+  "status": "PASS independent cumulative cuts",
+  "rows": 96,
+  "lower_passes": 96,
+  "upper_exclusions": 96,
+  "max_allocator_vs_cut_residual_MW": 1.4408712938063228e-12,
+  "nominal99_controlling": {
+    "retained_heat_duty_DECLARED": "1.0",
+    "capture_percent": "99.72",
+    "steam_endpoint": "isentropic",
+    "return_endpoint": "60C",
+    "compressor_inlet_C": "136.0",
+    "overhead_fraction_DECLARED": "0.0",
+    "constructed_duty_lower_MW": "35.957000732421875",
+    "conservative_method_failure_upper_MW": "35.9576416015625",
+    "width_MW": "0.000640869140625",
+    "boundary_primary_flow_kg_s": "214.28898923807958",
+    "boundary_recovery_UA_MW_K": "0.8338028978875397",
+    "high_unmet_MW": "0.00010425691099794077",
+    "lower_max_cut_violation_MW": -0.0002648582318514059,
+    "upper_max_cut_violation_MW": 0.00010425691046478391,
+    "controlling_upper_cold_interval_C": 77.1
+  },
+  "limits": "Cuts are sufficient/necessary for nested eligible interval graph only; not for all physical topologies or real plant."
+}

@@ -1,0 +1,110 @@
+{
+  "created_utc": "2026-10-10T18:44:12.650857+00:00",
+  "status": "PASS structural diagnostic; NOT published composite reproduction or hardware certification",
+  "source": {
+    "publication": "Su et al. Fuel 332 (2023) 126004",
+    "printed_endpoints": "Fig.6/text overhead 106->70 C; compressor 136/164/173->70 C",
+    "duties_MW": {
+      "overhead": 5.3,
+      "compressor": 1.6
+    },
+    "declared_not_printed": [
+      "Constant heat capacity sensible cooling curves",
+      "Overhead plateau fraction in [0,1]",
+      "All compression duty placed at either endpoint inlet",
+      "15 K approach on compressor as in prior screen"
+    ]
+  },
+  "condition": "Q_above(60 C)>=36.5 MW precedes all flow/UA repair choices",
+  "structural_summaries": [
+    {
+      "steam_domain": "isentropic",
+      "return_domain": "60C_lower",
+      "compressor_inlet_C": 136.0,
+      "aggregate_at_fraction0_MW": 36.189583442255575,
+      "aggregate_at_fraction1_MW": 36.92569455336669,
+      "minimum_overhead_plateau_fraction_aggregate": 0.4216979652377075
+    },
+    {
+      "steam_domain": "isentropic",
+      "return_domain": "60C_lower",
+      "compressor_inlet_C": 173.0,
+      "aggregate_at_fraction0_MW": 36.233125660555075,
+      "aggregate_at_fraction1_MW": 36.96923677166619,
+      "minimum_overhead_plateau_fraction_aggregate": 0.36254627245348164
+    },
+    {
+      "steam_domain": "isentropic",
+      "return_domain": "saturated_liquid_upper",
+      "compressor_inlet_C": 136.0,
+      "aggregate_at_fraction0_MW": 36.52045454545455,
+      "aggregate_at_fraction1_MW": 37.25656565656566,
+      "minimum_overhead_plateau_fraction_aggregate": 0.0
+    },
+    {
+      "steam_domain": "isentropic",
+      "return_domain": "saturated_liquid_upper",
+      "compressor_inlet_C": 173.0,
+      "aggregate_at_fraction0_MW": 36.56399676375405,
+      "aggregate_at_fraction1_MW": 37.30010787486516,
+      "minimum_overhead_plateau_fraction_aggregate": 0.0
+    },
+    {
+      "steam_domain": "inlet_enthalpy_upper",
+      "return_domain": "60C_lower",
+      "compressor_inlet_C": 136.0,
+      "aggregate_at_fraction0_MW": 36.255942401892675,
+      "aggregate_at_fraction1_MW": 36.99205351300379,
+      "minimum_overhead_plateau_fraction_aggregate": 0.331549944598629
+    },
+    {
+      "steam_domain": "inlet_enthalpy_upper",
+      "return_domain": "60C_lower",
+      "compressor_inlet_C": 173.0,
+      "aggregate_at_fraction0_MW": 36.299484620192175,
+      "aggregate_at_fraction1_MW": 37.03559573130329,
+      "minimum_overhead_plateau_fraction_aggregate": 0.27239825181440314
+    },
+    {
+      "steam_domain": "inlet_enthalpy_upper",
+      "return_domain": "saturated_liquid_upper",
+      "compressor_inlet_C": 136.0,
+      "aggregate_at_fraction0_MW": 36.52045454545455,
+      "aggregate_at_fraction1_MW": 37.25656565656566,
+      "minimum_overhead_plateau_fraction_aggregate": 0.0
+    },
+    {
+      "steam_domain": "inlet_enthalpy_upper",
+      "return_domain": "saturated_liquid_upper",
+      "compressor_inlet_C": 173.0,
+      "aggregate_at_fraction0_MW": 36.56399676375405,
+      "aggregate_at_fraction1_MW": 37.30010787486516,
+      "minimum_overhead_plateau_fraction_aggregate": 0.0
+    }
+  ],
+  "worst_aggregate_partition": {
+    "steam_domain": "isentropic",
+    "return_domain": "60C_lower",
+    "compressor_inlet_C": 136.0,
+    "aggregate_at_fraction0_MW": 36.189583442255575,
+    "aggregate_at_fraction1_MW": 36.92569455336669,
+    "minimum_overhead_plateau_fraction_aggregate": 0.4216979652377075
+  },
+  "best_aggregate_partition": {
+    "steam_domain": "isentropic",
+    "return_domain": "saturated_liquid_upper",
+    "compressor_inlet_C": 136.0,
+    "aggregate_at_fraction0_MW": 36.52045454545455,
+    "aggregate_at_fraction1_MW": 37.25656565656566,
+    "minimum_overhead_plateau_fraction_aggregate": 0.0
+  },
+  "coordinate_count": 328,
+  "excluded_coordinates": 57,
+  "warnings": [
+    "The grid has no empirical distribution; fractions of rows are not probabilities.",
+    "An actual overhead condensing profile need not belong to this illustrative family.",
+    "A pass is only necessary; finite branch UA, joint power and reliability remain unclosed.",
+    "Heat pump outlet and COP remain the source 77 C/5.5 anchor, not a boosted device.",
+    "No new LCA, TEA or investment ordering has been computed."
+  ]
+}

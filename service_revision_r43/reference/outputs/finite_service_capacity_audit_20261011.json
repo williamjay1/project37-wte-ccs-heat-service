@@ -1,0 +1,110 @@
+{
+  "created_utc": "2026-10-10T19:23:55.539247+00:00",
+  "status": "PASS conditional common-capacity bracketing",
+  "primary_supply_return_C": [
+    100,
+    60
+  ],
+  "customer_supply_return_C": [
+    80,
+    50
+  ],
+  "temperature_step_K": 0.1,
+  "profiles": 96,
+  "family_bounds": [
+    {
+      "retained_heat_duty_DECLARED": 1.0,
+      "capture_percent": "99.72",
+      "family_common_constructed_lower_MW": 35.957000732421875,
+      "family_conservative_method_upper_MW": 35.9576416015625,
+      "all_endpoint_rechecks_pass": true,
+      "endpoints_checked": 24,
+      "controlling": {
+        "retained_heat_duty_DECLARED": 1.0,
+        "capture_percent": "99.72",
+        "steam_endpoint": "isentropic",
+        "return_endpoint": "60C",
+        "compressor_inlet_C": 136.0,
+        "overhead_fraction_DECLARED": 0.0,
+        "constructed_duty_lower_MW": 35.957000732421875,
+        "conservative_method_failure_upper_MW": 35.9576416015625,
+        "width_MW": 0.000640869140625,
+        "boundary_primary_flow_kg_s": 214.28898923807958,
+        "boundary_recovery_UA_MW_K": 0.8338028978875397,
+        "high_unmet_MW": 0.00010425691099794077
+      }
+    },
+    {
+      "retained_heat_duty_DECLARED": 1.0,
+      "capture_percent": "95",
+      "family_common_constructed_lower_MW": 36.7984619140625,
+      "family_conservative_method_upper_MW": 36.799102783203125,
+      "all_endpoint_rechecks_pass": true,
+      "endpoints_checked": 24,
+      "controlling": {
+        "retained_heat_duty_DECLARED": 1.0,
+        "capture_percent": "95",
+        "steam_endpoint": "isentropic",
+        "return_endpoint": "60C",
+        "compressor_inlet_C": 136.0,
+        "overhead_fraction_DECLARED": 0.0,
+        "constructed_duty_lower_MW": 36.7984619140625,
+        "conservative_method_failure_upper_MW": 36.799102783203125,
+        "width_MW": 0.000640869140625,
+        "boundary_primary_flow_kg_s": 219.30375305107643,
+        "boundary_recovery_UA_MW_K": 0.8699478305098286,
+        "high_unmet_MW": 0.0005684032440530541
+      }
+    },
+    {
+      "retained_heat_duty_DECLARED": 0.95,
+      "capture_percent": "99.72",
+      "family_common_constructed_lower_MW": 34.15936279296875,
+      "family_conservative_method_upper_MW": 34.160003662109375,
+      "all_endpoint_rechecks_pass": true,
+      "endpoints_checked": 24,
+      "controlling": {
+        "retained_heat_duty_DECLARED": 0.95,
+        "capture_percent": "99.72",
+        "steam_endpoint": "isentropic",
+        "return_endpoint": "60C",
+        "compressor_inlet_C": 136.0,
+        "overhead_fraction_DECLARED": 0.0,
+        "constructed_duty_lower_MW": 34.15936279296875,
+        "conservative_method_failure_upper_MW": 34.160003662109375,
+        "width_MW": 0.000640869140625,
+        "boundary_primary_flow_kg_s": 203.5758037883796,
+        "boundary_recovery_UA_MW_K": 0.792123925878225,
+        "high_unmet_MW": 0.0002396593577539824
+      }
+    },
+    {
+      "retained_heat_duty_DECLARED": 0.95,
+      "capture_percent": "95",
+      "family_common_constructed_lower_MW": 34.958526611328125,
+      "family_conservative_method_upper_MW": 34.95916748046875,
+      "all_endpoint_rechecks_pass": true,
+      "endpoints_checked": 24,
+      "controlling": {
+        "retained_heat_duty_DECLARED": 0.95,
+        "capture_percent": "95",
+        "steam_endpoint": "isentropic",
+        "return_endpoint": "60C",
+        "compressor_inlet_C": 136.0,
+        "overhead_fraction_DECLARED": 0.0,
+        "constructed_duty_lower_MW": 34.958526611328125,
+        "conservative_method_failure_upper_MW": 34.95916748046875,
+        "width_MW": 0.000640869140625,
+        "boundary_primary_flow_kg_s": 208.33849264961876,
+        "boundary_recovery_UA_MW_K": 0.8264502397002018,
+        "high_unmet_MW": 0.0005598195076172516
+      }
+    }
+  ],
+  "limits": [
+    "Finite interval family only, not installed/annual firm service or global optimal topology.",
+    "Five percent duty derating is a prescribed stress, not measured uncertainty.",
+    "Boundary costs/power not recomputed; no financial ranking from capacity alone.",
+    "Profile endpoints are not independent plants or probability samples."
+  ]
+}

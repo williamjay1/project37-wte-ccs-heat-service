@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-10-10T18:45:49.202878+00:00",
+  "manuscript": "project37_manuscript_r40_20261006.pdf",
+  "manuscript_sha256": "99dc306e457088e1502565f506637e0a677e2e7b13992c6d537d9b669e385228",
+  "provenance": {
+    "process": "Su 2023 published backpressure heat/recovery anchors",
+    "service": "D=36.5 MW, flow=150 kg/s and primary transfers are analyst-declared, not published plant observations",
+    "model": "r40 optimistic source-grade rectangles and IF97 10-bar liquid-water coordinate"
+  },
+  "status": "PASS independent algebra/LP diagnostic; NOT certified physical repair",
+  "primary_supply_max_C": 115.66093546634815,
+  "primary_supply_min_at150_C": 117.86986290966016,
+  "empty_window_K": 2.2089274433120067,
+  "minimum_flow_for_necessary_window_kg_s": 156.00294371396404,
+  "flow_increase_from150_percent": 4.00196247597604,
+  "UA_at120_MW_K": 1.6866581393625337,
+  "UA_at_grade_boundary_MW_K": 1.8085343190199437,
+  "UA_increase_from120_percent": 7.2258969860645506,
+  "flow_at100_kg_s": 217.52504235252678,
+  "UA_at100_MW_K": 2.5299872090438003,
+  "required_additional_above77_MW_at150": 0.4271244736713129,
+  "margin_fraction_of_aggregate_percent": 1.14272302706356,
+  "effective_low_grade_boundary_C": 77.67937052104729,
+  "effective_low_grade_shift_K": 0.6793705210472893,
+  "independent_LP_comparisons": 40,
+  "maximum_algebra_LP_error_MW": 1.4210854715202004e-14,
+  "one_at_a_time_stresses": [
+    {
+      "overhead_fraction_DESIGN_STRESS": 1.0,
+      "aggregate_MW": 37.37777777777778,
+      "supply_upper_C": 115.66093546634815,
+      "minimum_flow_kg_s": 156.00294371396404,
+      "interpretation": "one-at-a-time structural stress, not a probability or error bar"
+    },
+    {
+      "overhead_fraction_DESIGN_STRESS": 0.95,
+      "aggregate_MW": 37.11277777777778,
+      "supply_upper_C": 114.37305356181858,
+      "minimum_flow_kg_s": 159.72733831614468,
+      "interpretation": "one-at-a-time structural stress, not a probability or error bar"
+    },
+    {
+      "overhead_fraction_DESIGN_STRESS": 0.9,
+      "aggregate_MW": 36.84777777777778,
+      "supply_upper_C": 113.14328270261983,
+      "minimum_flow_kg_s": 163.45173291832432,
+      "interpretation": "one-at-a-time structural stress, not a probability or error bar"
+    },
+    {
+      "overhead_fraction_DESIGN_STRESS": 0.85,
+      "aggregate_MW": 36.58277777777778,
+      "supply_upper_C": 111.9677859374591,
+      "minimum_flow_kg_s": 167.17612752050456,
+      "interpretation": "one-at-a-time structural stress, not a probability or error bar"
+    },
+    {
+      "overhead_fraction_DESIGN_STRESS": 0.8,
+      "aggregate_MW": 36.31777777777778,
+      "supply_upper_C": null,
+      "minimum_flow_kg_s": null,
+      "interpretation": "one-at-a-time structural stress, not a probability or error bar"
+    }
+  ],
+  "limits": [
+    "Passing necessary cuts is not a sufficient heat-exchanger network construction.",
+    "UA is an ideal terminal-temperature coordinate; installed UA, branch composites, pressure drop and pumping remain unknown.",
+    "The heat-grade perturbation does not establish a realizable heat-pump upgrade at unchanged COP/power.",
+    "Source closure residuals are not uncertainty distributions.",
+    "No new climate, cost, investment ordering, factory validation or EU-27 fleet claim is made."
+  ]
+}

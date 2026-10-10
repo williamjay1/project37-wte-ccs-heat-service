@@ -1,23 +1,44 @@
 # WtE–CCS thermal-service assessment: reproducible code and data
 
-Research software accompanying *Thermal service constraints on waste-to-energy
-CCS: district heating, storage and environmental implications*. This repository
+Research software supporting *Service preserving retrofit boundaries for
+carbon capture at waste incineration plants*. This repository
 supports a bounded engineering assessment, **not factory validation, a full
 multi-impact LCA, bankable TEA or an EU-27 investment forecast**.
 
 ## Publication state
 
 Repository: https://github.com/williamjay1/project37-wte-ccs-heat-service .
-This is a tested computational snapshot, not yet a formal archived release.
-No Zenodo deposit or DOI is asserted. Real researcher names, affiliations and
-final release metadata must be supplied before archival. A GitHub account name
-is not inferred to be a paper author.
+The preceding snapshot is preserved by tag `v1.0.0` and archived at
+https://doi.org/10.5281/zenodo.23180488. It does **not** include the 11 October
+service revision. `service_revision_r43/` adds the new numerical construction,
+capacity and decision-budget analysis and portable figure production. No new
+DOI, GitHub release or author-approved manuscript is asserted for this increment.
+A GitHub account name is not inferred to be a paper author. The historical
+root `publication_metadata.json` describes the initial preparation and is not
+the current archival record; use the resolved Zenodo record for v1 metadata.
 Publishing code does not establish journal policy compliance or author approval.
 Generative AI assisted research design, source appraisal, code, graphics and
 manuscript preparation; exact model provenance was not consistently retained.
 Human researchers remain responsible for scientific appraisal and declarations.
 
 ## Quick start
+
+The new revision is a separate empty-results run, with its own pinned
+dependencies and comparison references:
+
+```shell
+cd service_revision_r43
+python -m venv .venv
+# Activate the virtual environment; do not enable system site packages.
+python -m pip install -r requirements.txt
+python src/reproduce_revision_with_artwork_r43.py
+```
+
+It recomputes nine numerical stages, checks all 17 new scientific outputs,
+and draws three artwork products; four panel CSVs are checked after plotting.
+The script does not upload, archive, mint a DOI or certify visual inspection.
+See its README and SOURCE_NOTES for provenance and conditional evidence limits.
+The following commands reproduce the **preceding root pipeline**, separately.
 
 Use Python 3.12. Work in an extracted repository or clone, not the raw-data store.
 On the originating research computer, calculations and installation caches must

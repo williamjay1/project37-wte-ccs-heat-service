@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-10T19:39:56.887012+00:00",
+  "status": "PASS independent fixed-temperature cut margin and two-sided allocator checks",
+  "contract": "36.5MW, primary100/60C, customer80/50C, fixed waste throughput",
+  "profile": "Cold steam endpoint; compressor136C; declared overhead plateau0.5",
+  "resolutions": [
+    {
+      "temperature_step_K": 0.2,
+      "controlling_cut": {
+        "cold_lower_C": 60.0,
+        "cold_upper_C": 60.2,
+        "nominal_eligible_hot_MW": 24.54707990873664,
+        "hp_preheat_coefficient_MW": 11.97777777777778,
+        "retained_duty_required": 0.99931943098238
+      },
+      "maximum_proportional_derating_percent": 0.06805690176200363,
+      "aggregate_prerequisite_derating_percent": 0.15766608400027415,
+      "nominal_contract_capacity_of_interval_model_MW": 36.52485768651442,
+      "low_retained_unmet_MW": 3.6524857370646285e-05,
+      "high_retained_unmet_MW": 0.0,
+      "checks_pass": true
+    },
+    {
+      "temperature_step_K": 0.1,
+      "controlling_cut": {
+        "cold_lower_C": 60.0,
+        "cold_upper_C": 60.1,
+        "nominal_eligible_hot_MW": 24.563461703058696,
+        "hp_preheat_coefficient_MW": 11.97777777777778,
+        "retained_duty_required": 0.9988714263275579
+      },
+      "maximum_proportional_derating_percent": 0.11285736724421236,
+      "aggregate_prerequisite_derating_percent": 0.1576660840029498,
+      "nominal_contract_capacity_of_interval_model_MW": 36.541239480836474,
+      "low_retained_unmet_MW": 3.65412401362817e-05,
+      "high_retained_unmet_MW": 0.0,
+      "checks_pass": true
+    },
+    {
+      "temperature_step_K": 0.05,
+      "controlling_cut": {
+        "cold_lower_C": 60.0,
+        "cold_upper_C": 60.05,
+        "nominal_eligible_hot_MW": 24.57165924167047,
+        "hp_preheat_coefficient_MW": 11.97777777777778,
+        "retained_duty_required": 0.9986473931343472
+      },
+      "maximum_proportional_derating_percent": 0.135260686565275,
+      "aggregate_prerequisite_derating_percent": 0.1576660839970323,
+      "nominal_contract_capacity_of_interval_model_MW": 36.54943701944825,
+      "low_retained_unmet_MW": 3.65494355081342e-05,
+      "high_retained_unmet_MW": 0.0,
+      "checks_pass": true
+    }
+  ],
+  "limitations": [
+    "Thermal duties and HP output are proportionally scaled as a prescribed stress.",
+    "Not a measured operating tolerance, installed hardware rating or annual reliability.",
+    "The cut is exact only for the divisible conservative interval graph.",
+    "Duty changes do not recalculate capture, turbine power or finances."
+  ]
+}

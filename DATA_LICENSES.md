@@ -3,6 +3,15 @@
 Checked 5 October 2026. The software MIT license does not override these notices.
 Original PDF/XLSX files and third-party database implementations are not bundled.
 
+11 October service-model increment: `service_revision_r43/SOURCE_NOTES.md`
+records its published Su/Otgonbayar process anchors, catalogue costs and explicit
+scenario domains. Its `reference/outputs` and `reference/artwork` objects are
+generated numerical model products, not observed plant records. The root
+software license applies to original increment code and documentation only;
+retain this attribution and the upstream source rights. No full source article,
+supplement, workbook, private data, acquisition log or unpublished manuscript
+is added by this increment. Its SciencePlots resources preserve their MIT notice.
+
 | Input | Source and actual basis | Released object and changes |
 |---|---|---|
 | Hagenholz monthly owner CSV | ERZ / Open Data Zürich, CC0: https://data.stadt-zuerich.ch/dataset/erz_abfallmenge_energie_khkw | Unchanged owner snapshot, retrieved 2 October 2026. Cleaner regenerates dates/calendar hours and unit-consistent monthly variables; CC0 origin retained. |

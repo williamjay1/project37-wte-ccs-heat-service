@@ -1,0 +1,123 @@
+{
+  "created_utc": "2026-10-10T18:29:49.153005+00:00",
+  "status": "PASS conditional necessary-domain extension; NOT a sufficient retrofit or factory reproduction",
+  "service": {
+    "D_MW": 36.5,
+    "primary_return_C": 60.0,
+    "secondary_supply_return_C": [
+      80,
+      50
+    ],
+    "secondary_minimum_approach_K": 5
+  },
+  "source": {
+    "steam_duty_anchor_MW": 18.5,
+    "steam_extraction_pressure_MPa": 0.4,
+    "steam_approach_DECLARED_K": 10.0,
+    "hout_domain_MJ_kg": [
+      2.591207024029023,
+      3.178183018132337
+    ],
+    "hreturn_domain_MJ_kg": [
+      0.25147356122725356,
+      0.6047234741531466
+    ],
+    "published_basis": "Su 2023 Table3 backpressure duty; r40 declared adiabatic full-condensation domain"
+  },
+  "formula": "m_min = sup_theta [D-Q_above(theta)]_+/(h_water(theta)-h_water(Tr)); requires Q_above(Tr)>=D",
+  "profiles_bracket_intermediate_states": true,
+  "minimum_necessary_flow_range_kg_s": [
+    156.00294371396416,
+    168.57590869746207
+  ],
+  "supply_boundary_range_C": [
+    111.53929035701454,
+    115.66093546634818
+  ],
+  "states": [
+    {
+      "steam_state_domain": "isentropic",
+      "condensate_domain": "60C_lower",
+      "steam_h_in_MJ_kg": 2.591207024029023,
+      "condensate_h_out_MJ_kg": 0.25147356122725356,
+      "conditional_steam_mass_kg_s": 7.9068835378568005,
+      "usable_aggregate_above60_MW": 37.04690667457881,
+      "heat_above77_MW": 24.505402064894916,
+      "controlling_cold_cut_C": 77.0,
+      "minimum_flow_NECESSARY_kg_s": 168.57590869746207,
+      "increase_from150_percent": 12.383939131641375,
+      "maximum_supply_NECESSARY_C": 111.53929035701454,
+      "ideal_secondary_UA_MW_K": 1.9464749017121594,
+      "UA_increase_vs120_percent": 15.404233749930052,
+      "dense_frontier_error_kg_s": 0.0,
+      "under_frontier_duty_bound_MW": 36.49963500000009,
+      "above_frontier_duty_bound_MW": 36.49999999999996,
+      "scope": "Anchored steam-duty domain; other recovery remains optimistic; not installed hardware or investment validation"
+    },
+    {
+      "steam_state_domain": "isentropic",
+      "condensate_domain": "saturated_liquid_upper",
+      "steam_h_in_MJ_kg": 2.591207024029023,
+      "condensate_h_out_MJ_kg": 0.6047234741531466,
+      "conditional_steam_mass_kg_s": 9.312938937327699,
+      "usable_aggregate_above60_MW": 37.37777777777778,
+      "heat_above77_MW": 25.4,
+      "controlling_cold_cut_C": 77.0,
+      "minimum_flow_NECESSARY_kg_s": 156.00294371396416,
+      "increase_from150_percent": 4.001962475976106,
+      "maximum_supply_NECESSARY_C": 115.66093546634818,
+      "ideal_secondary_UA_MW_K": 1.8085343190199428,
+      "UA_increase_vs120_percent": 7.225896986064506,
+      "dense_frontier_error_kg_s": 0.0,
+      "under_frontier_duty_bound_MW": 36.499635000000026,
+      "above_frontier_duty_bound_MW": 36.499999999999986,
+      "scope": "Anchored steam-duty domain; other recovery remains optimistic; not installed hardware or investment validation"
+    },
+    {
+      "steam_state_domain": "inlet_enthalpy_upper",
+      "condensate_domain": "60C_lower",
+      "steam_h_in_MJ_kg": 3.178183018132337,
+      "condensate_h_out_MJ_kg": 0.25147356122725356,
+      "conditional_steam_mass_kg_s": 6.321092090761633,
+      "usable_aggregate_above60_MW": 37.11326563421591,
+      "heat_above77_MW": 24.68482114287759,
+      "controlling_cold_cut_C": 77.0,
+      "minimum_flow_NECESSARY_kg_s": 166.05429569532313,
+      "increase_from150_percent": 10.702863796882077,
+      "maximum_supply_NECESSARY_C": 112.31636263496262,
+      "ideal_secondary_UA_MW_K": 1.918506358389456,
+      "UA_increase_vs120_percent": 13.7460113354416,
+      "dense_frontier_error_kg_s": 0.0,
+      "under_frontier_duty_bound_MW": 36.49963500000005,
+      "above_frontier_duty_bound_MW": 36.49999999999998,
+      "scope": "Anchored steam-duty domain; other recovery remains optimistic; not installed hardware or investment validation"
+    },
+    {
+      "steam_state_domain": "inlet_enthalpy_upper",
+      "condensate_domain": "saturated_liquid_upper",
+      "steam_h_in_MJ_kg": 3.178183018132337,
+      "condensate_h_out_MJ_kg": 0.6047234741531466,
+      "conditional_steam_mass_kg_s": 7.188766593701539,
+      "usable_aggregate_above60_MW": 37.37777777777778,
+      "heat_above77_MW": 25.4,
+      "controlling_cold_cut_C": 77.0,
+      "minimum_flow_NECESSARY_kg_s": 156.00294371396416,
+      "increase_from150_percent": 4.001962475976106,
+      "maximum_supply_NECESSARY_C": 115.66093546634818,
+      "ideal_secondary_UA_MW_K": 1.8085343190199428,
+      "UA_increase_vs120_percent": 7.225896986064506,
+      "dense_frontier_error_kg_s": 0.0,
+      "under_frontier_duty_bound_MW": 36.499635000000026,
+      "above_frontier_duty_bound_MW": 36.499999999999986,
+      "scope": "Anchored steam-duty domain; other recovery remains optimistic; not installed hardware or investment validation"
+    }
+  ],
+  "limitations": [
+    "Steam mass is conditional on the fixed heat anchor, not independently measured or reproduced.",
+    "Endpoint heat/power feasibility is not jointly closed; this is a conservative declared state domain.",
+    "Other recovery remains rectangular, so even a worst-steam-domain pass is not full robust hardware feasibility.",
+    "Ideal secondary UA is not total branch/network conductance or cost.",
+    "No hourly reliability, pump energy, LCA increment, capital cost or investment ranking is recalculated.",
+    "Deterministic grids and state ranges are not confidence or credible intervals."
+  ]
+}

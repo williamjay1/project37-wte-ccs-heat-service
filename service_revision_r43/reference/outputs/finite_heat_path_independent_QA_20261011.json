@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-10T19:09:24.829664+00:00",
+  "status": "PASS independent CSV-allocation and budget arithmetic audit",
+  "allocations": 2054,
+  "cold_segments": 400,
+  "used_hot_segments": 1655,
+  "maximum_cold_balance_residual_MW": 2.7755575615628914e-17,
+  "maximum_hot_capacity_excess_MW": 8.881784197001252e-16,
+  "global_energy_residual_MW": 0.0,
+  "recovery_UA_bound_MW_K": 0.8538599506689594,
+  "minimum_approach_K": 10.052409406175713,
+  "UA_change_0_1_to0_05_K_percent": 0.04737750811367736,
+  "proportional_derating_above_which_aggregate_fails_percent": 0.1576660840029498,
+  "maximum_central_budget_arithmetic_error": 7.450580596923828e-09,
+  "limits": "Source profiles and operating points remain assumptions; residuals and refinement are numerical checks, not measured validation/error distributions."
+}
