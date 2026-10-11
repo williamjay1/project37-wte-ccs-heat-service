@@ -145,6 +145,14 @@ DOI** associated with the tested release; the concept DOI can identify the serie
 
 ## Repository layout
 
+The r47 revision in `service_revision_r43/` adds a full-method nearest-neighbor
+comparison and publicly transcribed origin-accounting checks. Its documented
+empty-results runner recomputes and compares 30 scientific products, retaining
+all 25 previous thermal products unchanged. New synthetic covariance examples
+and pooled-versus-fossil value diagnostics are not private plant observations,
+new factory validation or legal allowance calculations. The old version DOI
+does not cover the new snapshot; no new release or DOI has been created.
+
 ```
 src/                 scientific code and licensed graphics helpers
 datasets/            six frozen, attributable computational inputs

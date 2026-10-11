@@ -15,6 +15,20 @@ Use Python 3.12 in a virtual environment without system site packages:
     python -m pip install -r requirements.txt
     python src/reproduce_revision_with_artwork_r43.py
 
+For the current r47 full-method and origin-accounting revision, use instead:
+
+    python -m unittest discover -s tests -v
+    python src/reproduce_fulltext_revision_r47_20261011.py
+
+This wrapper recomputes all preceding service stages and artwork, then adds
+one deterministic printed-source/origin stage. All 30 scientific products
+(25 thermal and five new diagnostic files) are compared only after calculation.
+The additional JSON reference's timestamp and timestamped ledger digest are
+excluded explicitly; all scientific quantities, schemas and labels are checked.
+No original source PDF or private factory series is needed. See R47_NOTES.md
+for the actual nearest-neighbor overlap and origin-accounting claim boundary.
+The preceding runner remains available for the unchanged thermal increment.
+
 Run from this directory, which must initially have no results. On the
 originating Windows computer use D: for calculation; non-Windows paths are
 portable. The runner recomputes before comparing all 25 numerical products

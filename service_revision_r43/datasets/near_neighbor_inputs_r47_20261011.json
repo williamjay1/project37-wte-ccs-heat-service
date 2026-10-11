@@ -1,0 +1,8 @@
+{
+  "status": "Manually transcribed printed public parameters; not raw plant time series",
+  "sources": {
+    "ong": {"doi": "10.1016/j.tsep.2026.104852", "country": "Switzerland, outside EU-27", "flue_gas_kg_s": 27.917, "co2_mass_fraction": 0.19453, "annual_hours": 8760, "annual_co2_text_t": 133600, "capture_table14_kt": 154, "capture_table14_fraction": 0.9, "reboiler_table8_MJ_kg": 3.168, "reboiler_table10_MWh_t": 0.83, "locators": "PDF p6 Section3.1; p22 Tables8-10; p23 Table14", "license": "CC BY-NC-ND 4.0; source PDF not redistributed"},
+    "wang": {"doi": "10.1016/j.apenergy.2026.127558", "country": "Sweden, EU-27", "fossil_fraction": 0.45, "annual_capture_fraction_OR1": 0.527, "annual_capture_fraction_OR2": 0.442, "locators": "PDF p5 Section3.1 (55% biogenic); p7 Eq5; p9 Section4.2.1", "license": "CC BY 4.0; printed parameters only, no plant hourly series obtained"}
+  },
+  "conventions": {"mixed_capture": "equal fossil/biogenic capture efficiency in homogeneous flue gas; no isotope-selective capture", "normalized_generation": "1 tonne total generated CO2, separate for each rule; not the private plant's absolute annual emissions", "financial_comparison": "unchanged r46 central 36.5MW service-matched 95-to-99.72 percent paths, effective retained-carbon values, not ETS settlements"}
+}

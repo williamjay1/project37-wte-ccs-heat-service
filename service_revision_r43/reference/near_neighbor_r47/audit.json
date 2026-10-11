@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-10-11T06:52:35.638463+00:00",
+  "status": "PASS deterministic normalized balances, printed arithmetic and unchanged central-ledger identity",
+  "input_sha256": "fd97415eb070a3a07de7850a2a40d2c07e04e76e87da4e84f29f46eb58d96d5e",
+  "ledger_sha256": "b97f0c3e0a8e93ba24a4be57af669464ba7731ce1e0c1d64c3eac16f5215ec7d",
+  "ong_printed_closure": {
+    "table9_generated_CO2_t_year": 171262.36629936003,
+    "section31_printed_CO2_t_year": 133600,
+    "table9_minus_text_fraction": 0.2819039393664673,
+    "implied_table14_generated_CO2_t_year": 171111.1111111111,
+    "table14_capture_at90percent_of_table9_t_year": 154136.12966942403,
+    "table8_thermal_MJ_kg": 3.168,
+    "table10_thermal_MJ_kg": 2.988,
+    "scope": "Internal printed aggregate consistency only. Inconsistencies are not silently reconciled. No Modelica process or dispatch reproduction."
+  },
+  "wang_normalized_printed_parameters": [
+    {
+      "rule": "OR1",
+      "fossil_fraction": 0.45,
+      "captured_fraction": 0.527,
+      "captured_fossil": 0.23715000000000003,
+      "captured_biogenic": 0.28985000000000005,
+      "emitted_fossil": 0.21284999999999998,
+      "emitted_biogenic": 0.26015,
+      "pooled_net_carbon": -0.07700000000000001,
+      "difference_physical_fossil_minus_pooled": 0.28985000000000005
+    },
+    {
+      "rule": "OR2",
+      "fossil_fraction": 0.45,
+      "captured_fraction": 0.442,
+      "captured_fossil": 0.1989,
+      "captured_biogenic": 0.2431,
+      "emitted_fossil": 0.25110000000000005,
+      "emitted_biogenic": 0.30690000000000006,
+      "pooled_net_carbon": 0.008000000000000007,
+      "difference_physical_fossil_minus_pooled": 0.2431
+    }
+  ],
+  "financial_origin_diagnostic": {
+    "additional_retained_total_t_year": 6920.146151424003,
+    "additional_retained_fossil_t_year": 2768.0584605696013,
+    "noncarbon_included_cost_EUR2020_year": 1089727.3707182887,
+    "fossil_only_zero_scope_value_EUR2020_t": 393.679319364537,
+    "pooled_zero_scope_value_EUR2020_t": 157.4717277458148,
+    "sign_disagreement_open_interval_EUR2020_t": [
+      157.4717277458148,
+      393.679319364537
+    ],
+    "values": [
+      {
+        "effective_value_EUR2020_t": 0.0,
+        "fossil_only_remaining_scope_EUR2020_year": -1089727.3707182887,
+        "pooled_all_origin_remaining_scope_EUR2020_year": -1089727.3707182887,
+        "origin_misattribution_EUR2020_year": 0.0
+      },
+      {
+        "effective_value_EUR2020_t": 100.0,
+        "fossil_only_remaining_scope_EUR2020_year": -812921.5246613286,
+        "pooled_all_origin_remaining_scope_EUR2020_year": -397712.75557588844,
+        "origin_misattribution_EUR2020_year": 415208.76908544014
+      },
+      {
+        "effective_value_EUR2020_t": 157.4717277458148,
+        "fossil_only_remaining_scope_EUR2020_year": -653836.4224309733,
+        "pooled_all_origin_remaining_scope_EUR2020_year": 0.0,
+        "origin_misattribution_EUR2020_year": 653836.4224309732
+      },
+      {
+        "effective_value_EUR2020_t": 300.0,
+        "fossil_only_remaining_scope_EUR2020_year": -259309.8325474083,
+        "pooled_all_origin_remaining_scope_EUR2020_year": 986316.4747089122,
+        "origin_misattribution_EUR2020_year": 1245626.3072563205
+      },
+      {
+        "effective_value_EUR2020_t": 393.679319364537,
+        "fossil_only_remaining_scope_EUR2020_year": 0.0,
+        "pooled_all_origin_remaining_scope_EUR2020_year": 1634591.0560774328,
+        "origin_misattribution_EUR2020_year": 1634591.0560774328
+      },
+      {
+        "effective_value_EUR2020_t": 500.0,
+        "fossil_only_remaining_scope_EUR2020_year": 294301.8595665118,
+        "pooled_all_origin_remaining_scope_EUR2020_year": 2370345.7049937127,
+        "origin_misattribution_EUR2020_year": 2076043.8454272007
+      }
+    ],
+    "scope": "Effective retained-carbon valuation at fixed r46 thermal paths and ledger assumptions. Not plant investment profit, correction of another paper or actual ETS deduction."
+  },
+  "grid_rows": 56,
+  "temporal_origin_counterexamples": [
+    {
+      "scenario": "capture_in_lower_fossil_period",
+      "generation_weighted_fossil": 0.4,
+      "capture_weighted_fossil": 0.24000000000000002,
+      "mean_capture_fraction": 0.5,
+      "weighted_covariance": -0.08,
+      "annual_average_attribution_error_per_generated_t": 0.08
+    },
+    {
+      "scenario": "neutral_capture",
+      "generation_weighted_fossil": 0.4,
+      "capture_weighted_fossil": 0.4,
+      "mean_capture_fraction": 0.5,
+      "weighted_covariance": 0.0,
+      "annual_average_attribution_error_per_generated_t": 0.0
+    },
+    {
+      "scenario": "capture_in_higher_fossil_period",
+      "generation_weighted_fossil": 0.4,
+      "capture_weighted_fossil": 0.56,
+      "mean_capture_fraction": 0.5,
+      "weighted_covariance": 0.08,
+      "annual_average_attribution_error_per_generated_t": -0.08000000000000002
+    }
+  ],
+  "uncertainty": "Structural accounting conventions; not a sample, confidence interval or probability distribution.",
+  "original_pdfs_redistributed": false
+}

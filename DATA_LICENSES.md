@@ -32,3 +32,13 @@ upstream licenses into MIT. Retain upstream attribution and this notice when
 sharing an archive. Responsible researchers must review license scope before
 depositing a version; seek source clarification if intending broader reuse of
 third-party expression. This record is provenance, not an individual legal opinion.
+
+11 October 2026 r47 printed-fact addition:
+`service_revision_r43/datasets/near_neighbor_inputs_r47_20261011.json` contains
+limited attributed numerical facts and original locator/provenance notes from
+Ong et al. (DOI 10.1016/j.tsep.2026.104852, source CC BY-NC-ND 4.0) and Wang
+et al. (DOI 10.1016/j.apenergy.2026.127558, source CC BY 4.0). No article PDF,
+full table, copied figure, extracted page text or private plant series is added.
+Do not infer MIT or a blanket modification/redistribution permission for the
+Ong article from the software license. Origin-normalization and cost/covariance
+outputs are newly computed mathematical scenario products, not measurements.

@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-10T22:38:22.476723+00:00",
+  "created_utc": "2026-10-11T07:01:40.799523+00:00",
   "files": [
     {
       "path": ".gitattributes",
@@ -8,8 +8,8 @@
     },
     {
       "path": ".github/workflows/reproducibility.yml",
-      "bytes": 2185,
-      "sha256": "0d9c9c1f8a8e193bddc2a685f4207c6a0635a3c348e5e81dba07a05b72e59308"
+      "bytes": 2324,
+      "sha256": "f030b926195e6f035801ab174b86f9df992f896406d655d3e8f4f9059c0a3e2f"
     },
     {
       "path": ".gitignore",
@@ -18,8 +18,8 @@
     },
     {
       "path": "DATA_LICENSES.md",
-      "bytes": 4242,
-      "sha256": "dd1b7ccfd24a70102eac067354e977b902312fbf0440bd18082b73b06e61ed48"
+      "bytes": 4915,
+      "sha256": "8d66a5295cc87531ff185e1ad16ec0097c0b08acc5c72764f6c514a67fcf79ab"
     },
     {
       "path": "LICENSE",
@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9288,
-      "sha256": "962cbafc86ed5f9343e44bdd7796addb8cef2c3dbfed15b931b71f28f3ceae98"
+      "bytes": 9831,
+      "sha256": "0f1c95c7749e8eb00965a63793f23bb2cca3516b706729a35b8ebaa0ec725a7c"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -447,14 +447,24 @@
       "sha256": "4ac3751fb98e96b52d78e355402bf8445596678ac3bac9bf01e81081b676cff7"
     },
     {
+      "path": "service_revision_r43/R47_NOTES.md",
+      "bytes": 2107,
+      "sha256": "f3d59bc6ad9fe016394a1cb1fd6e46ba9ab7541b11338ef8c761edc21dec8bdc"
+    },
+    {
       "path": "service_revision_r43/README.md",
-      "bytes": 5188,
-      "sha256": "8cff7f0f8083265caaf5e894edcc54d33fe9a11408e7bdc89bacc674c0b5d70c"
+      "bytes": 6002,
+      "sha256": "4770766429ff655d119314b97e136cd35697087210dd3eae86088b05efe52580"
     },
     {
       "path": "service_revision_r43/SOURCE_NOTES.md",
       "bytes": 2656,
       "sha256": "31b55364ff22306c707d6aac234d89b0ce1c734a69d501a6ae226b2ab98d1fde"
+    },
+    {
+      "path": "service_revision_r43/datasets/near_neighbor_inputs_r47_20261011.json",
+      "bytes": 1311,
+      "sha256": "fd97415eb070a3a07de7850a2a40d2c07e04e76e87da4e84f29f46eb58d96d5e"
     },
     {
       "path": "service_revision_r43/reference/artwork/construction/Fig3_panel_a_data.csv",
@@ -475,6 +485,31 @@
       "path": "service_revision_r43/reference/artwork/frontier/Fig2_panel_b_data.csv",
       "bytes": 2019,
       "sha256": "e81991150d210b7c2eac6efe0519a596512b8ba2488d14bfe09abf09e83306b4"
+    },
+    {
+      "path": "service_revision_r43/reference/near_neighbor_r47/audit.json",
+      "bytes": 5165,
+      "sha256": "b4bccc79ddaa732697830ced6aab7bac54db7cfeb0e737bd6073bfcfeac5a8b1"
+    },
+    {
+      "path": "service_revision_r43/reference/near_neighbor_r47/conditional_value_diagnostic.csv",
+      "bytes": 510,
+      "sha256": "a5eac88d06ebbc49ee1839e0b2c8c62b5fdee1c7b50ce3fdbb3264aa27fefc7e"
+    },
+    {
+      "path": "service_revision_r43/reference/near_neighbor_r47/normalized_origin_grid.csv",
+      "bytes": 4133,
+      "sha256": "9941d17fff735edbd3f661b57435366ec9f88efeceb34894c15cabbf0a6c56d4"
+    },
+    {
+      "path": "service_revision_r43/reference/near_neighbor_r47/printed_wang_normalized.csv",
+      "bytes": 387,
+      "sha256": "ba0217fb0d24ac597bdf56373f28ad44a87f0a84ea5f90f0de8111f43d86b9f9"
+    },
+    {
+      "path": "service_revision_r43/reference/near_neighbor_r47/temporal_origin_counterexamples.csv",
+      "bytes": 332,
+      "sha256": "5ec8522565545926e0dea56a9d4cacf922aae1bc9f69650f153c778932b25c99"
     },
     {
       "path": "service_revision_r43/reference/outputs/constructed_path_derating_audit_20261011.json",
@@ -617,6 +652,11 @@
       "sha256": "d40bd00548354c471cb4e8780fd7aaa57ea3e49e831eec21cc42f05c32025c55"
     },
     {
+      "path": "service_revision_r43/src/audit_near_neighbor_accounting_r47_20261011.py",
+      "bytes": 8078,
+      "sha256": "02f0aeb44d641661677028af4ddfa22f5bc787f6814136bb339a8e90a933f3b4"
+    },
+    {
       "path": "service_revision_r43/src/audit_primary_margin_20261011.py",
       "bytes": 10351,
       "sha256": "1370b579f419bc1c266971c650de99e7974f10948c08c0fbb457ccf44c46da99"
@@ -702,6 +742,11 @@
       "sha256": "f8b9a4dcbe75a0576893f848fc0d6809a3bee460e1400dd1a8e4af9666733b8a"
     },
     {
+      "path": "service_revision_r43/src/reproduce_fulltext_revision_r47_20261011.py",
+      "bytes": 6266,
+      "sha256": "120b6a603bb9216e4ed4f33cf1811da35039203ffc0b9b5ef9b8767aaf5c17d9"
+    },
+    {
       "path": "service_revision_r43/src/reproduce_revision_with_artwork_r43.py",
       "bytes": 7261,
       "sha256": "e2ba025e88bd80325ccf9c7be2a3c8b0eec04dfa02aa1d3fd8ae13a27818e585"
@@ -730,6 +775,11 @@
       "path": "service_revision_r43/src/verify_finite_heat_path_20261011.py",
       "bytes": 4038,
       "sha256": "76d2b57d4b7143f934af0d8b015c51c8ba9deb4f640a48c1099558ff569c751c"
+    },
+    {
+      "path": "service_revision_r43/tests/test_origin_accounting_r47.py",
+      "bytes": 2202,
+      "sha256": "20f7e18faf6447f34a8df1875292dfbd594722caa9b35c7b95392b36ac7ac1af"
     },
     {
       "path": "service_revision_r43/tests/test_plot_payload.py",
